@@ -103,6 +103,62 @@ graph TD
     end
 ```
 
+## High-Level Data Flow Diagram
+
+```mermaid
+graph TD
+    subgraph Challenge Creation
+        A[Challenge Creator] -->|Create Challenge| B[Challenge Creation]
+    end
+
+    subgraph Participant Registration
+        C[Participants] -->|Join Challenge| D[Participant Registration]
+    end
+
+    subgraph Data Collection and Validation
+        D -->|Submit Data| E[Data Collection]
+        E -->|Validate Data| F[Data Validation]
+    end
+
+    subgraph Blockchain Verification
+        F -->|Verify and Record| G[Blockchain]
+    end
+
+    subgraph Reward Distribution
+        G -->|Distribute Rewards| H[Reward Distribution]
+    end
+
+    subgraph Impact Tracking
+        H -->|Track Impact| I[Impact Tracking]
+    end
+```
+
+**Low-Level DFD:**
+
+This low-level DFD provides more detailed processes within the "Data Collection and Validation" section.
+
+```markdown
+## Low-Level Data Flow Diagram (Data Collection and Validation)
+
+```mermaid
+graph TD
+    subgraph Data Collection
+        A[Participants] -->|Submit Data| B[Data Collection]
+    end
+
+    subgraph Data Validation
+        B -->|Validate Data| C[Data Validation]
+    end
+
+    subgraph External Data Sources
+        C -->|Fetch Data| D[External Data Sources]
+    end
+
+    subgraph Blockchain
+        C -->|Verify and Record| E[Blockchain]
+    end
+```
+
 ## Conclusion
 The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
 
