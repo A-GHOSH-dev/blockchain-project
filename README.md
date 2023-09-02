@@ -236,7 +236,6 @@ graph TD
 
 ```mermaid
 graph TD
-    Start
     subgraph ChallengeCreation[Challenge Creation (Web Interface)]
         Ethereum[<br/>Ethereum<br/>Smart Contracts for Challenge Rules]
         React[<br/>React<br/>User-Friendly Web Interface]
