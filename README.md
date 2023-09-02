@@ -234,6 +234,7 @@ graph TD
 
 ## Technology Stack Flow
 
+```mermaid
 graph TD
     Start
     subgraph ChallengeCreation[Challenge Creation (Web Interface)]
@@ -269,8 +270,7 @@ graph TD
         React3[<br/>React<br/>Displaying Cumulative Impact]
     end
     
-    End
-
+```
 
 ## Conclusion
 The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
