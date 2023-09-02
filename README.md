@@ -236,39 +236,46 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph ChallengeCreation[Challenge Creation (Web Interface)]
-        Ethereum[<br/>Ethereum<br/>Smart Contracts for Challenge Rules]
-        React[<br/>React<br/>User-Friendly Web Interface]
+    subgraph Start
+        Start
     end
-    
-    subgraph ParticipantRegistration[Participant Registration (Web Interface)]
-        Ethereum2[<br/>Ethereum<br/>Smart Contracts for Participant Data]
-        NodeJS[<br/>Node.js<br/>Server Handling Registrations]
-        React2[<br/>React<br/>User-Friendly Web Interface]
+
+    subgraph "Challenge Creation (Web Interface)"
+        Start -->|Create Challenge| Ethereum[Smart Contracts for Challenge Rules]
+        Ethereum -->|User Interface| React[User-Friendly Web Interface]
     end
-    
-    subgraph DataCollectionValidation[Data Collection and Validation]
-        Participants[<br/>Participants<br/>Submit Data]
-        Chainlink[<br/>Chainlink<br/>Fetch Real-World Data]
-        NodeJS2[<br/>Node.js<br/>Data Validation Processes]
-        Ethereum3[<br/>Ethereum<br/>Secure Data Storage]
+
+    subgraph "Participant Registration (Web Interface)"
+        Start -->|Join Challenge| Ethereum2[Smart Contracts for Participant Data]
+        Ethereum2 -->|User Interface| React2[User-Friendly Web Interface]
+        React -->|Server Handling Registrations| Nodejs[Node.js]
     end
-    
-    subgraph BlockchainVerification[Blockchain Verification]
-        Ethereum4[<br/>Ethereum<br/>Smart Contracts for Data Verification]
-        Blockchain[<br/>Blockchain<br/>Immutability and Transparency]
+
+    subgraph "Data Collection and Validation"
+        Start -->|Submit Data| Participants[Participants]
+        Participants -->|Fetch Real-World Data| Chainlink[Chainlink]
+        Chainlink -->|Data Validation Processes| Nodejs2[Node.js]
+        Nodejs2 -->|Secure Data Storage| Ethereum3[Ethereum]
     end
-    
-    subgraph RewardDistribution[Reward Distribution]
-        Ethereum5[<br/>Ethereum<br/>Smart Contracts for Reward Distribution]
-        Participants2[<br/>Participants<br/>Receive Rewards]
+
+    subgraph "Blockchain Verification"
+        Ethereum3 -->|Smart Contracts for Data Verification| Ethereum4[Ethereum]
+        Ethereum4 -->|Immutability and Transparency| Blockchain[Blockchain]
     end
-    
-    subgraph ImpactTracking[Impact Tracking]
-        Ethereum6[<br/>Ethereum<br/>Smart Contracts for Impact Tracking]
-        React3[<br/>React<br/>Displaying Cumulative Impact]
+
+    subgraph "Reward Distribution"
+        Start -->|Distribute Rewards| Ethereum5[Ethereum]
+        Ethereum5 -->|Receive Rewards| Participants2[Participants]
     end
-    
+
+    subgraph "Impact Tracking"
+        Ethereum4 -->|Smart Contracts for Impact Tracking| Ethereum6[Ethereum]
+        Ethereum6 -->|Displaying Cumulative Impact| React3[React]
+    end
+
+    subgraph End
+        End
+    end
 ```
 
 ## Conclusion
