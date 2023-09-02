@@ -232,47 +232,6 @@ graph TD
 
 5. **Chainlink:** Chainlink ensures the reliability and security of external data integration, critical for validating carbon reduction activities.
 
-## Technology Stack Flow
-
-Start
-|
-|--> Challenge Creation (Web Interface)
-|       |
-|       |--> Ethereum (Smart Contracts for Challenge Rules)
-|       |--> React (User-Friendly Web Interface)
-|
-|--> Participant Registration (Web Interface)
-|       |
-|       |--> Ethereum (Smart Contracts for Participant Data)
-|       |--> Node.js (Server Handling Registrations)
-|       |--> React (User-Friendly Web Interface)
-|
-|--> Data Collection and Validation
-|       |
-|       |--> Participants (Submit Data)
-|       |--> Chainlink (Fetch Real-World Data)
-|       |--> Node.js (Data Validation Processes)
-|       |--> Ethereum (Secure Data Storage)
-|
-|--> Blockchain Verification
-|       |
-|       |--> Ethereum (Smart Contracts for Data Verification)
-|       |
-|       |--> Blockchain (Immutability and Transparency)
-|
-|--> Reward Distribution
-|       |
-|       |--> Ethereum (Smart Contracts for Reward Distribution)
-|       |
-|       |--> Participants (Receive Rewards)
-|
-|--> Impact Tracking
-        |
-        |--> Ethereum (Smart Contracts for Impact Tracking)
-        |--> React (Displaying Cumulative Impact)
-End
-
-
 ## Conclusion
 The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
 
