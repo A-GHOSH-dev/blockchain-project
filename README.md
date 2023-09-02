@@ -234,49 +234,44 @@ graph TD
 
 ## Technology Stack Flow
 
-```mermaid
-graph TD
-    subgraph Start
-        Start
-    end
+Start
+|
+|--> Challenge Creation (Web Interface)
+|       |
+|       |--> Ethereum (Smart Contracts for Challenge Rules)
+|       |--> React (User-Friendly Web Interface)
+|
+|--> Participant Registration (Web Interface)
+|       |
+|       |--> Ethereum (Smart Contracts for Participant Data)
+|       |--> Node.js (Server Handling Registrations)
+|       |--> React (User-Friendly Web Interface)
+|
+|--> Data Collection and Validation
+|       |
+|       |--> Participants (Submit Data)
+|       |--> Chainlink (Fetch Real-World Data)
+|       |--> Node.js (Data Validation Processes)
+|       |--> Ethereum (Secure Data Storage)
+|
+|--> Blockchain Verification
+|       |
+|       |--> Ethereum (Smart Contracts for Data Verification)
+|       |
+|       |--> Blockchain (Immutability and Transparency)
+|
+|--> Reward Distribution
+|       |
+|       |--> Ethereum (Smart Contracts for Reward Distribution)
+|       |
+|       |--> Participants (Receive Rewards)
+|
+|--> Impact Tracking
+        |
+        |--> Ethereum (Smart Contracts for Impact Tracking)
+        |--> React (Displaying Cumulative Impact)
+End
 
-    subgraph "Challenge Creation (Web Interface)"
-        Start -->|Create Challenge| Ethereum[Smart Contracts for Challenge Rules]
-        Ethereum -->|User Interface| React[User-Friendly Web Interface]
-    end
-
-    subgraph "Participant Registration (Web Interface)"
-        Start -->|Join Challenge| Ethereum2[Smart Contracts for Participant Data]
-        Ethereum2 -->|User Interface| React2[User-Friendly Web Interface]
-        React -->|Server Handling Registrations| Nodejs[Node.js]
-    end
-
-    subgraph "Data Collection and Validation"
-        Start -->|Submit Data| Participants[Participants]
-        Participants -->|Fetch Real-World Data| Chainlink[Chainlink]
-        Chainlink -->|Data Validation Processes| Nodejs2[Node.js]
-        Nodejs2 -->|Secure Data Storage| Ethereum3[Ethereum]
-    end
-
-    subgraph "Blockchain Verification"
-        Ethereum3 -->|Smart Contracts for Data Verification| Ethereum4[Ethereum]
-        Ethereum4 -->|Immutability and Transparency| Blockchain[Blockchain]
-    end
-
-    subgraph "Reward Distribution"
-        Start -->|Distribute Rewards| Ethereum5[Ethereum]
-        Ethereum5 -->|Receive Rewards| Participants2[Participants]
-    end
-
-    subgraph "Impact Tracking"
-        Ethereum4 -->|Smart Contracts for Impact Tracking| Ethereum6[Ethereum]
-        Ethereum6 -->|Displaying Cumulative Impact| React3[React]
-    end
-
-    subgraph End
-        End
-    end
-```
 
 ## Conclusion
 The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
