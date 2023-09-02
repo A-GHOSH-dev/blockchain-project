@@ -133,11 +133,6 @@ graph TD
     end
 ```
 
-**Low-Level DFD:**
-
-This low-level DFD provides more detailed processes within the "Data Collection and Validation" section.
-
-```markdown
 ## Low-Level Data Flow Diagram (Data Collection and Validation)
 
 ```mermaid
