@@ -522,7 +522,6 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 3. **Domain Name Registrar:** Register a domain name for your website, and configure DNS settings we are using GoDaddy.
 	- **GoDaddy:** GoDaddy is one of the largest and most well-known domain registrars in the world. They offer a variety of domain-related services, including domain auctions and website hosting.
 
-<<<<<<< HEAD
 # Entities
 
 ### User
@@ -570,7 +569,6 @@ Building a website for carbon credits using blockchain and the Ethereum platform
     **Blockchain**
     The Blockchain entity represents the blockchain itself, and each block has a reference to the previous block, forming a one-to-one relationship within the Blockchain entity.
 
-=======
 ## Entity-Relationship Diagram (ERD)
 [![](https://mermaid.ink/img/pako:eNqNksFqhDAQhl8l5Ly-gLeyllZol6LbW2CZmlk3YKLEyRZR373R3aq1FnpLJh9f5p-k5VkpkYccbaQgt6CFQUOKGvZeo2WtMIwpyeLDcVg5XzOgkaXHJD48DSXUoIpp3wszCfYXKAo0Oa4tK4N0FkiV5na8NLyBJZWpCgxtdXKat9n3XVNts5MICNamar5kIZSePFFTLRu9QuFwM2qCn2Dl_8ygS-fzRI_7-PXhZZCMpnHcXRcEZfsjd8gETzBXNaGtBRdmHusf9DOM3LLcl0HQdas5DGzqPrSiX_zdfI91ayFDdcWR5Duu0fp3l_7jjJkFpwtqFHxAJZ7BFTSQvUfBUZk2JuMhWYc77io_W7z_Nh6eoaix_wK_oeGH?type=png)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNksFqhDAQhl8l5Ly-gLeyllZol6LbW2CZmlk3YKLEyRZR373R3aq1FnpLJh9f5p-k5VkpkYccbaQgt6CFQUOKGvZeo2WtMIwpyeLDcVg5XzOgkaXHJD48DSXUoIpp3wszCfYXKAo0Oa4tK4N0FkiV5na8NLyBJZWpCgxtdXKat9n3XVNts5MICNamar5kIZSePFFTLRu9QuFwM2qCn2Dl_8ygS-fzRI_7-PXhZZCMpnHcXRcEZfsjd8gETzBXNaGtBRdmHusf9DOM3LLcl0HQdas5DGzqPrSiX_zdfI91ayFDdcWR5Duu0fp3l_7jjJkFpwtqFHxAJZ7BFTSQvUfBUZk2JuMhWYc77io_W7z_Nh6eoaix_wK_oeGH)
 >>>>>>> a0ccebc911d12e0551d4a62253a4c538424ac5a0
