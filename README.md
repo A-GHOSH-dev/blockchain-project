@@ -548,7 +548,7 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 
 ##### The following pie chart visually represents the distribution of Tech Stack Usage within the "Blockchain-Based Carbon Reduction Challenge Platform."
 
-    ```mermaid
+```mermaid
     pie
       title Tech Stack Usage
       "Front-End Framework (React)": 40
@@ -568,7 +568,8 @@ Building a website for carbon credits using blockchain and the Ethereum platform
       "Web Hosting (Heroku)": 5
       "Blockchain Deployment (Remix)": 1
       "Domain Name Registrar (GoDaddy)": 1
-    ```
+```
+
 
 # Entities
 
