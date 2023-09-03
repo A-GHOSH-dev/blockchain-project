@@ -360,7 +360,49 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 3. **Domain Name Registrar:** Register a domain name for your website, and configure DNS settings we are using GoDaddy.
 	- **GoDaddy:** GoDaddy is one of the largest and most well-known domain registrars in the world. They offer a variety of domain-related services, including domain auctions and website hosting.
 
+## Entity-Relationship Diagram (ERD)
 
+```mermaid
+erDiagram
+    participant |||
+    participant Challenge {
+        key ChallengeID
+        Name
+        Duration
+        Rules
+        StartDate
+        EndDate
+    }
+    participant Participant {
+        key ParticipantID
+        Name
+        Email
+        Address
+        Commitment
+    }
+    participant Submission {
+        key SubmissionID
+        Data
+        Timestamp
+    }
+    participant Reward {
+        key RewardID
+        Amount
+        Timestamp
+    }
+    participant Impact {
+        key ImpactID
+        TotalReduction
+        Timestamp
+    }
+    
+    Challenge }|..|{ Participant : "has"
+    Challenge }|..|{ Submission : "has"
+    Participant }|..|{ Submission : "makes"
+    Challenge }|..|{ Reward : "has"
+    Participant }|..|{ Reward : "receives"
+    Challenge }|..|{ Impact : "has"
+```
 
 
 ## Conclusion
