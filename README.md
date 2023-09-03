@@ -147,6 +147,36 @@ The primary objectives of the project are as follows:
 - **Implementation:** Develop a public ledger that displays the total carbon emissions reduced through all challenges on the platform.
 - **Advantages:** Motivates further participation by highlighting the collective impact.
 
+## Blockchain Integration Overview
+The "Blockchain-Based Carbon Reduction Challenge Platform" extensively utilizes blockchain technology throughout various components of the project. Blockchain is primarily leveraged for data security, transparency, and automation.
+
+### Smart Contracts (40%)
+Blockchain technology is predominantly employed for the implementation of smart contracts. These contracts define and enforce challenge rules, facilitate data validation, and automate reward distribution. Smart contracts ensure the integrity of the challenge ecosystem, enhancing transparency and fairness.
+
+### Data Storage (30%)
+A significant portion of blockchain integration pertains to data storage. Validated carbon reduction data, participant records, and reward distribution records are securely stored on the blockchain. This storage ensures immutability, data integrity, and transparency.
+
+### Identity Verification (10%)
+Blockchain-based identity verification solutions (e.g., uPort or Sovrin) are used to enhance user trust and security during participant registration. While not the primary focus, this integration plays a crucial role in maintaining the platform's credibility.
+
+### External Data Integration (15%)
+Chainlink, a prominent blockchain oracle solution, is utilized to connect smart contracts with real-world data sources. This integration is pivotal for verifying carbon reduction activities, contributing to data reliability and trustworthiness.
+
+### Public Ledger (5%)
+A small portion of blockchain integration is dedicated to maintaining a public ledger that showcases the cumulative carbon reduction impact. While not the primary function of the blockchain, this feature adds transparency and awareness to the platform.
+
+##### The following pie chart visually represents the distribution of blockchain integration within the "Blockchain-Based Carbon Reduction Challenge Platform."
+
+```mermaid
+pie
+  title Blockchain Integration
+  "Smart Contracts" : 40
+  "Data Storage" : 30
+  "Identity Verification" : 10
+  "External Data Integration" : 15
+  "Public Ledger" : 5
+```
+
 ## Advantages of the Project
 
 1. **Incentivizing Carbon Reduction:** The project motivates individuals and organizations to actively participate in carbon reduction efforts by offering real rewards in the form of carbon credits.
