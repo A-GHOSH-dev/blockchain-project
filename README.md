@@ -361,48 +361,7 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 	- **GoDaddy:** GoDaddy is one of the largest and most well-known domain registrars in the world. They offer a variety of domain-related services, including domain auctions and website hosting.
 
 ## Entity-Relationship Diagram (ERD)
-
-```mermaid
-erDiagram
-    participant |||
-    participant Challenge {
-        key ChallengeID
-        Name
-        Duration
-        Rules
-        StartDate
-        EndDate
-    }
-    participant Participant {
-        key ParticipantID
-        Name
-        Email
-        Address
-        Commitment
-    }
-    participant Submission {
-        key SubmissionID
-        Data
-        Timestamp
-    }
-    participant Reward {
-        key RewardID
-        Amount
-        Timestamp
-    }
-    participant Impact {
-        key ImpactID
-        TotalReduction
-        Timestamp
-    }
-    
-    Challenge }|..|{ Participant : "has"
-    Challenge }|..|{ Submission : "has"
-    Participant }|..|{ Submission : "makes"
-    Challenge }|..|{ Reward : "has"
-    Participant }|..|{ Reward : "receives"
-    Challenge }|..|{ Impact : "has"
-```
+[![](https://mermaid.ink/img/pako:eNqNksFqhDAQhl8l5Ly-gLeyllZol6LbW2CZmlk3YKLEyRZR373R3aq1FnpLJh9f5p-k5VkpkYccbaQgt6CFQUOKGvZeo2WtMIwpyeLDcVg5XzOgkaXHJD48DSXUoIpp3wszCfYXKAo0Oa4tK4N0FkiV5na8NLyBJZWpCgxtdXKat9n3XVNts5MICNamar5kIZSePFFTLRu9QuFwM2qCn2Dl_8ygS-fzRI_7-PXhZZCMpnHcXRcEZfsjd8gETzBXNaGtBRdmHusf9DOM3LLcl0HQdas5DGzqPrSiX_zdfI91ayFDdcWR5Duu0fp3l_7jjJkFpwtqFHxAJZ7BFTSQvUfBUZk2JuMhWYc77io_W7z_Nh6eoaix_wK_oeGH?type=png)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNksFqhDAQhl8l5Ly-gLeyllZol6LbW2CZmlk3YKLEyRZR373R3aq1FnpLJh9f5p-k5VkpkYccbaQgt6CFQUOKGvZeo2WtMIwpyeLDcVg5XzOgkaXHJD48DSXUoIpp3wszCfYXKAo0Oa4tK4N0FkiV5na8NLyBJZWpCgxtdXKat9n3XVNts5MICNamar5kIZSePFFTLRu9QuFwM2qCn2Dl_8ygS-fzRI_7-PXhZZCMpnHcXRcEZfsjd8gETzBXNaGtBRdmHusf9DOM3LLcl0HQdas5DGzqPrSiX_zdfI91ayFDdcWR5Duu0fp3l_7jjJkFpwtqFHxAJZ7BFTSQvUfBUZk2JuMhWYc77io_W7z_Nh6eoaix_wK_oeGH)
 
 
 ## Conclusion
