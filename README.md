@@ -176,7 +176,7 @@ graph TD
 - **Rationale:**
     - HTML, CSS, and JavaScript form the foundation of web development.
     - React provides dynamic and responsive user interfaces, enhancing the user experience.
-    
+
 ### Back-End Development
 - **Choice:** Node.js
 - **Rationale:**
@@ -232,8 +232,10 @@ graph TD
 
 5. **Chainlink:** Chainlink ensures the reliability and security of external data integration, critical for validating carbon reduction activities.
 
+
+## Platform
+
+
+
 ## Conclusion
 The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
-
-
-
