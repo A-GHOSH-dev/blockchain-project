@@ -360,6 +360,53 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 3. **Domain Name Registrar:** Register a domain name for your website, and configure DNS settings we are using GoDaddy.
 	- **GoDaddy:** GoDaddy is one of the largest and most well-known domain registrars in the world. They offer a variety of domain-related services, including domain auctions and website hosting.
 
+# Entities
+
+### User
+**Attributes**
+    **UserID (Primary Key):** Unique identifier for each user.
+    **Username:** User's chosen username.
+    **Email:** User's email address.
+    **Password:** User's hashed password for authentication.
+    **WalletAddress:** User's blockchain wallet address.
+
+### CarbonCreditsTransaction
+    **Attributes**
+    **TransactionID (Primary Key):** Unique identifier for each transaction.
+    **SenderID (Foreign Key):** References the User who sent the credits.
+    **ReceiverID (Foreign Key):** References the User who received the credits.
+    **Amount:** Amount of carbon credits transferred.
+    **Timestamp:** Timestamp of the transaction.
+
+### CarbonCreditsListing
+    **Attributes**
+    **ListingID (Primary Key):** Unique identifier for each carbon credit listing.
+    **SellerID (Foreign Key):** References the User who is selling the credits.
+    **CreditsAvailable:** Amount of carbon credits available for sale.
+    **PricePerCredit:** Price per carbon credit.
+    **Timestamp:** Timestamp of when the listing was created.
+
+### Blockchain
+    **Attributes**
+    **BlockID (Primary Key):** Unique identifier for each block in the blockchain.
+    **PreviousBlockID:** References the BlockID of the previous block in the chain.
+    **Nonce:** A random value used in the proof-of-work algorithm.
+    **Timestamp:** Timestamp of when the block was added to the blockchain.
+
+### Relationships:
+
+    **User**
+    One user can initiate (send) multiple transactions, hence a one-to-many relationship between User and CarbonCreditsTransaction for both Sender and Receiver. One user can create multiple carbon credit listings, leading to a one-to-many relationship between User and CarbonCreditsListing.
+
+    **CarbonCreditsTransaction**
+    Each transaction involves a sender and a receiver, resulting in a many-to-one relationship between CarbonCreditsTransaction and User for both Sender and Receiver. Transactions are associated with specific listings, creating a many-to-one relationship between CarbonCreditsTransaction and CarbonCreditsListing.
+
+    **CarbonCreditsListing**
+    Multiple transactions can be associated with a single listing, establishing a one-to-many relationship between CarbonCreditsListing and CarbonCreditsTransaction.
+
+    **Blockchain**
+    The Blockchain entity represents the blockchain itself, and each block has a reference to the previous block, forming a one-to-one relationship within the Blockchain entity.
+
 
 
 
