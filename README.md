@@ -548,28 +548,7 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 
 ##### The following pie chart visually represents the distribution of Tech Stack Usage within the "Blockchain-Based Carbon Reduction Challenge Platform."
 
-```mermaid
-    pie
-      title Tech Stack Usage
-      "Front-End Framework (React)": 40
-      "Version Control (Git/GitHub)": 20
-      "HTML/CSS": 10
-      "JavaScript": 15
-      "Responsive Design Tools (Bootstrap)"": 5
-      "Solidity IDE (Remix/VS Code)": 5
-      "Ethereum Development (Truffle/Hardhat/Remix)": 5
-      "Metamask": 2
-      "Infura": 2
-      "Web3.js/ethers.js": 3
-      "Database (MongoDB)": 10
-      "Server-Side Scripting (Node.js/Python)": 10
-      "Security Tools (MythX/Slither)": 2
-      "Penetration Testing Tools (OWASP ZAP/Burp Suite)": 1
-      "Web Hosting (Heroku)": 5
-      "Blockchain Deployment (Remix)": 1
-      "Domain Name Registrar (GoDaddy)": 1
-```
-
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75301209/2379a507-5108-473b-a23b-03dd70ef540c)
 
 # Entities
 
