@@ -525,7 +525,7 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 
 ### Tech Stack Usage
 
-    Here's a breakdown of the tech stack usage:
+- Here's a breakdown of the tech stack usage:
 
     - **Front-End Framework (React)**: 40%
     - **Version Control (Git/GitHub)**: 20%
