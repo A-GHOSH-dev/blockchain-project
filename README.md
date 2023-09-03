@@ -295,7 +295,7 @@ graph TD
 
 15. **Carbon Credit Tokenization for Crowdfunding:** Projects seeking funding for sustainable initiatives can tokenize their expected carbon credits on Ethereum, allowing individuals and organizations to invest in green projects and receive returns based on carbon credit performance.
 
-- By utilizing Ethereum's capabilities, carbon credit blockchain websites can address critical issues in the carbon credit market, including transparency, efficiency, and accessibility, ultimately contributing to global efforts to combat climate change and promote sustainability.
+By utilizing Ethereum's capabilities, carbon credit blockchain websites can address critical issues in the carbon credit market, including transparency, efficiency, and accessibility, ultimately contributing to global efforts to combat climate change and promote sustainability.
 
 
 
