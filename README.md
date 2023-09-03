@@ -298,6 +298,68 @@ graph TD
 By utilizing Ethereum's capabilities, carbon credit blockchain websites can address critical issues in the carbon credit market, including transparency, efficiency, and accessibility, ultimately contributing to global efforts to combat climate change and promote sustainability.
 
 
+## Description about tools that what we are going to use in our project.
+
+Building a website for carbon credits using blockchain and the Ethereum platform requires a combination of web development tools, blockchain tools, and Ethereum-specific tools. Here's a list of some of the key tools and technologies you might need:
+
+### Web Development Tools
+
+1. **Text Editor/IDE:** Integrated development environment (IDE) for writing code for this we are using Visual Studio Code and Atom.
+
+2. **Version Control:** We are using Git and a platform like GitHub which helps in manage and collaborate on code efficiently.
+
+3. **Front-End Framework:** We are using React for building the user interface because React allows us to create a modern, interactive, and user-friendly interface. This is crucial for presenting complex information about carbon credits and blockchain in a way that is easy for users to understand and navigate.
+
+4. **HTML/CSS:** Fundamental web technologies for structuring and styling web content
+
+5. **JavaScript:** For adding interactivity to your website.
+
+4. **Responsive Design Tools:** Tools like Bootstrap can help us to create responsive web designs that work well on various devices.
+
+### Blockchain Tools
+
+1. **Solidity IDE:** An Integrated Development Environment for writing Solidity smart contracts, such as Remix or Visual Studio Code with Solidity extensions.
+- Ethereum Development Environment: Setting up an Ethereum development environment, which includes Ethereum nodes and development frameworks like Truffle, Hardhat and remix
+-Remix IDE: Remix is a web-based integrated development environment that allows us to write, test, and deploy smart contracts directly in our web browser. It's suitable for both beginners and experienced developers.
+
+2. **Ganache:** A personal blockchain for Ethereum development and testing.
+
+### Ethereum-Specific Tools
+
+1. **Metamask:** A browser extension wallet for interacting with Ethereum dApps (decentralized applications) during development.
+
+2. **Infura:** A service that provides access to Ethereum nodes via APIs, essential for deploying your smart contracts to the Ethereum mainnet or testnets.
+
+3. **Web3.js or ethers.js:** JavaScript libraries for interacting with Ethereum smart contracts and the Ethereum blockchain.
+
+4. **Smart Contract Development:** Remix is a tool for writing, compiling, and deploying smart contracts.
+
+### Database and Backend Tools
+
+1. **Database:** To store Off-Chain Metadata we are using MongoDB
+- **Off-Chain Metadata:** Some data related to carbon credits, such as user profiles, project descriptions, or additional information, can be stored off-chain in a traditional relational or NoSQL database.
+	- **MySQL:** A reliable relational database system.
+	- **PostgreSQL:** Known for its advanced features and extensibility.
+	- **MongoDB:** A NoSQL database suitable for flexible and unstructured data.
+	- **DynamoDB:** A managed NoSQL database service provided by AWS, suitable for scalability and high availability.
+
+2. **Server-Side Scripting:** Backend programming languages and frameworks such as Node.js, Python (with Flask or Django)
+
+### Security Tools
+
+1. **Security Auditing Tools:** Tools like MythX or Slither can help to analyze and secure our smart contracts.
+
+2. **Penetration Testing Tools:** To ensure the security of your web application, consider using tools like OWASP ZAP or Burp Suite for security testing.
+
+### Deployment and Hosting
+
+1. **Web Hosting:** To deploy our website. We are using Heroku because Heroku is a cloud platform-as-a-service (PaaS) that allows developers to deploy, manage, and scale web applications and services with ease. It abstracts much of the infrastructure management, making it simpler for developers to focus on writing code and building their applications.
+
+2. **Blockchain Deployment:** We are using Remix to deploy our smart contracts to the Ethereum mainnet or testnet.
+
+3. **Domain Name Registrar:** Register a domain name for your website, and configure DNS settings we are using GoDaddy.
+	- **GoDaddy:** GoDaddy is one of the largest and most well-known domain registrars in the world. They offer a variety of domain-related services, including domain auctions and website hosting.
+
 
 
 
