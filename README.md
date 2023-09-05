@@ -608,4 +608,5 @@ The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative an
 
 ## References
 - Saraji, S., & Borowczak, M. (2021). A blockchain-based carbon credit ecosystem. arXiv preprint arXiv:2107.00185.
+- Howson, P. (2019). Tackling climate change with blockchain. Nature Climate Change, 9(9), 644-645.
 - Kim, S. K., & Huh, J. H. (2020). Blockchain of carbon trading for UN sustainable development goals. Sustainability, 12(10), 4021.
