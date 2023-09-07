@@ -611,4 +611,4 @@ The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative an
 - Howson, P. (2019). Tackling climate change with blockchain. Nature Climate Change, 9(9), 644-645.
 - Kim, S. K., & Huh, J. H. (2020). Blockchain of carbon trading for UN sustainable development goals. Sustainability, 12(10), 4021.
 - https://www.footprintcalculator.org/home/en
-- 
+- Enejison, M., Ejide, O., & Nemanic, C. (2022). Blocks and Credits: A Sustainability Lens on Blockchain Technology in Voluntary Carbon Markets.
