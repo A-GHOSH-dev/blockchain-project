@@ -613,4 +613,4 @@ The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative an
 - https://www.footprintcalculator.org/home/en
 - Enejison, M., Ejide, O., & Nemanic, C. (2022). Blocks and Credits: A Sustainability Lens on Blockchain Technology in Voluntary Carbon Markets.
 - Woo, J., Fatima, R., Kibert, C. J., Newman, R. E., Tian, Y., & Srinivasan, R. S. (2021). Applying blockchain technology for building energy performance measurement, reporting, and verification (MRV) and the carbon credit market: A review of the literature. Building and Environment, 205, 108199.
-- 
+- Patel, D., Britto, B., Sharma, S., Gaikwad, K., Dusing, Y., & Gupta, M. (2020, February). Carbon credits on blockchain. In 2020 International Conference on Innovative Trends in Information Technology (ICITIIT) (pp. 1-5). IEEE.
