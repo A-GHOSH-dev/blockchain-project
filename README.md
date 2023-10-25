@@ -927,3 +927,12 @@ Records of participation in carbon offset programs.)
 10. After the block is accepted, the player who submitted the block containing his reduction proof, gets the reward carbon credits (Easy level- 25% carbon credits of the maximum , Medium Level- 50% carbon Credits of maximum, Hard level- 100% Carbon credits of the maximum, maximum=200 carbon credits). 
 
 
+# TechStack
+
+- Smart Contracts in Solidity
+- Truffle suite for compiling smart contracts
+- Ethereum to build the blockchain
+- Web3.js to interact with the smart contracts throught website
+- HTML CSS Javascript for Frontend of website
+- Node js for backend of website
+
