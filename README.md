@@ -614,3 +614,316 @@ The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative an
 - Enejison, M., Ejide, O., & Nemanic, C. (2022). Blocks and Credits: A Sustainability Lens on Blockchain Technology in Voluntary Carbon Markets.
 - Woo, J., Fatima, R., Kibert, C. J., Newman, R. E., Tian, Y., & Srinivasan, R. S. (2021). Applying blockchain technology for building energy performance measurement, reporting, and verification (MRV) and the carbon credit market: A review of the literature. Building and Environment, 205, 108199.
 - Patel, D., Britto, B., Sharma, S., Gaikwad, K., Dusing, Y., & Gupta, M. (2020, February). Carbon credits on blockchain. In 2020 International Conference on Innovative Trends in Information Technology (ICITIIT) (pp. 1-5). IEEE.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Workflow
+
+1. User registers into the website filling his details.
+2. We give him a form containing questions to calculate his carbon footprint based on the answers he provides.
+   
+(*Questionnaire:*
+
+*Household Energy:*
+
+1. How do you heat your home?
+  - [ ] Natural gas
+  - [ ] Electricity
+  - [ ] Heating oil
+  - [ ] Other
+
+2. How do you cool your home?
+  - [ ] Air conditioning
+  - [ ] Fans
+  - [ ] No cooling
+  - [ ] Other
+
+3. How energy-efficient is your home?
+  - [ ] Energy-efficient appliances and insulation
+  - [ ] Average
+  - [ ] Not energy-efficient
+
+*Transportation:*
+
+4. How do you commute to work or school?
+  - [ ] Car (solo)
+  - [ ] Carpool
+  - [ ] Public transportation
+  - [ ] Bicycle/walking
+  - [ ] Telecommute
+
+5. How often do you fly for leisure or business?
+  - [ ] Frequently
+  - [ ] Occasionally
+  - [ ] Rarely
+  - [ ] Never
+
+6. What type of vehicle do you drive?
+  - [ ] Electric vehicle
+  - [ ] Hybrid vehicle
+  - [ ] Gasoline vehicle
+  - [ ] None
+
+*Waste and Recycling:*
+
+7. Do you recycle paper, glass, and plastics?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+8. How often do you compost food waste?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Food and Diet:*
+
+9. How often do you eat red meat?
+  - [ ] Daily
+  - [ ] Weekly
+  - [ ] Monthly
+  - [ ] Rarely/never
+
+10. How often do you eat locally-sourced and seasonal foods?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+11. Do you follow a vegetarian or vegan diet?
+  - [ ] Yes
+  - [ ] No
+
+*Shopping and Consumption:*
+
+12. How often do you buy products second-hand?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+13. How often do you buy products with minimal packaging?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Travel and Leisure:*
+
+14. How often do you take long-haul vacations?
+  - [ ] Frequently
+  - [ ] Occasionally
+  - [ ] Rarely
+  - [ ] Never
+
+15. How do you travel on vacation?
+  - [ ] Air travel
+  - [ ] Road trips
+  - [ ] Train/bus
+  - [ ] Staycations
+
+*Water Usage:*
+
+16. How long are your showers on average?
+  - [ ] Less than 5 minutes
+  - [ ] 5-10 minutes
+  - [ ] 10-15 minutes
+  - [ ] Over 15 minutes
+
+17. How often do you water your lawn or garden?
+  - [ ] Daily
+  - [ ] Weekly
+  - [ ] Monthly
+  - [ ] Rarely/never
+
+*Energy-Saving Habits:*
+
+18. Do you turn off lights and appliances when not in use?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+19. Do you use energy-efficient light bulbs?
+  - [ ] Yes
+  - [ ] No
+
+20. Do you use a programmable thermostat for heating/cooling?
+  - [ ] Yes
+  - [ ] No
+
+*Recycling Electronics:*
+
+21. How often do you dispose of electronic devices properly (recycling)?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+22. How often do you upgrade your electronic devices?
+  - [ ] Annually
+  - [ ] Every few years
+  - [ ] Rarely
+  - [ ] Never
+
+*Home Energy Efficiency:*
+
+23. Do you use energy-efficient appliances?
+  - [ ] Yes
+  - [ ] No
+
+24. Have you insulated your home for energy efficiency?
+  - [ ] Yes
+  - [ ] No
+
+*Local Travel:*
+
+25. Do you use public transportation for local travel?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+26. How many miles do you drive per day for local trips?
+  - [ ] None
+  - [ ] 1-10 miles
+  - [ ] 11-25 miles
+  - [ ] Over 25 miles
+
+*Eating Habits:*
+
+27. How much food do you throw away?
+  - [ ] Minimal waste
+  - [ ] Some waste
+  - [ ] Considerable waste
+  - [ ] Significant waste
+
+28. Do you buy food in bulk to reduce packaging?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Renewable Energy:*
+
+29. Do you use renewable energy sources (e.g., solar panels)?
+  - [ ] Yes
+  - [ ] No
+
+30. Do you actively reduce water and electricity usage in your home?
+  - [ ] Yes
+  - [ ] No
+
+*Recycling Paper:*
+
+31. Do you recycle paper products?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+32. Do you print double-sided and avoid excessive printing?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Reducing Single-Use Plastics:*
+
+33. Do you actively reduce single-use plastics (e.g., shopping bags, water bottles)?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+34. Do you use reusable containers and bags for groceries and takeout?
+  - [ ] Always
+  - [ ] Sometimes
+
+
+  - [ ] Rarely
+  - [ ] Never
+
+*Carbon Offset Activities:*
+
+35. Do you participate in carbon offset programs (e.g., tree planting)?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+36. Do you support organizations that promote sustainability and carbon reduction?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Driving Habits:*
+
+37. How many miles do you drive per year?
+  - [ ] None
+  - [ ] 1,000 - 5,000 miles
+  - [ ] 5,001 - 10,000 miles
+  - [ ] Over 10,000 miles
+
+38. Do you carpool or use rideshare services for commuting?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Responsible Consumer Choices:*
+
+39. Do you actively support eco-friendly and sustainable brands and products?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+40. Do you participate in local environmental initiatives or clean-up efforts?
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+
+*Calculating the Carbon Footprint:*
+
+To calculate the individual's carbon footprint based on their responses, you can assign carbon emissions values to each answer option for every question. These values should be in units of carbon dioxide equivalent (CO2e). For example, "Always" might represent a lower emissions value, while "Rarely" or "Never" might represent a higher emissions value.
+
+For each question, add up the emissions values corresponding to the selected options. Sum these values to calculate the total carbon footprint in units of CO2e. 
+
+Here's a simplified formula:
+
+*Total Carbon Footprint (in kg CO2e) = Emissions from Question 1 + Emissions from Question 2 + ... + Emissions from Question 40*
+
+Example:
+
+Let's say a user provides the following answers:
+
+- Question 1: Heating with natural gas (Emissions = 2.2 kg CO2e)
+- Question 2: Air conditioning (Emissions = 3.0 kg CO2e)
+- Question 3: Not energy-efficient home (Emissions = 5.0 kg CO2e)
+- ... (answers to all 40 questions)
+
+You add up these emissions values for all questions to calculate the user's total carbon footprint.
+
+The result would be the user's estimated carbon footprint in kg CO2e based on their responses.)
+
+3. He can see challenges listed in the website. He can register into one of the challenges.
+4. these challenges contain the reward as carbon credits calculated based on the amount of carbon footprint reduction by the individual.
+5. these challenges have different time period/deadline (between 3-12 months any) by which the player has to submit the proof of carbon footprint reduction.
+6. These challenges have levels and targets (easy (carbon footprint reduction target- 10% to 30% reduction) medium (carbon footprint reduction target- 31% to 60% reduction), hard (carbon footprint reduction target- 61% to 100% reduction))
+7. Once the player is done reducing the carbon footprint to target level, he can collect the proofs to prove his reduction and submit it through the form we give. hence he proposes a block into the blockchain.
+(Proofs like : Ask users to submit various forms of evidence to support their claims. This can include data, photos, receipts, and other documents. For example:Utility bills showing reduced energy consumption.
+Travel records to demonstrate reduced mileage.
+Photos of sustainable practices like composting.
+Receipts from eco-friendly product purchases.
+Records of participation in carbon offset programs.)
+
+8. the proof that is given, that proof is validated by all other players in the blockchain.
+9. incase of any discrepancy, or fake proof, the other players can reject that proof, and that block is rejected from adding to the blockchain. 
+10. After the block is accepted, the player who submitted the block containing his reduction proof, gets the reward carbon credits (Easy level- 25% carbon credits of the maximum , Medium Level- 50% carbon Credits of maximum, Hard level- 100% Carbon credits of the maximum, maximum=200 carbon credits). 
+
+
