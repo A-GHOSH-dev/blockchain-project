@@ -936,6 +936,54 @@ Records of participation in carbon offset programs.)
 - HTML CSS Javascript for Frontend of website
 - Node js for backend of website
 
+```mermaid
+graph TD
+
+    subgraph UserRegistration
+        A[User Registers]
+        B[User Fills Details]
+        A --> B
+    end
+
+    subgraph CarbonFootprintCalculation
+        C[User Answers Questions]
+        D[Calculate Carbon Footprint]
+        C --> D
+    end
+
+    subgraph ChallengeParticipation
+        E[View Challenges]
+        F[Choose a Challenge]
+        G[Set Challenge Deadline]
+        H[Submit Proof of Reduction]
+        I[Propose Block to Blockchain]
+        E --> F
+        F --> G
+        F --> H
+        H --> I
+    end
+
+    subgraph ChallengeValidation
+        J[Other Players Validate Proof]
+        K{Discrepancy or Fake Proof?}
+        L[Block Rejected]
+        M[Block Accepted]
+        K --> |Yes| L
+        K --> |No| M
+    end
+
+    subgraph RewardDistribution
+        N[Calculate Carbon Credits]
+        O[Carbon Credits Awarded]
+        M --> N
+        N --> O
+    end
+
+    UserRegistration --> CarbonFootprintCalculation
+    CarbonFootprintCalculation --> ChallengeParticipation
+    ChallengeParticipation --> ChallengeValidation
+    ChallengeValidation --> RewardDistribution
+```
 
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/58251162-e03b-49c5-a0bc-0ab635008e31)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/61d1e88c-88d4-486a-9a2a-b0862dbcb382)
