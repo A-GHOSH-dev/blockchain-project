@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carbon Footprint Questionnaire</title>
+  <style>
+    body {
+        background-image: url("https://i.pinimg.com/736x/2c/be/b1/2cbeb106cee6a2a2776ff0ba5e3cee5f.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: fadeIn 2s ease-in;
+        
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff90;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #056508;
+      }
+      
+      .question {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        font-weight: bolder;
+        font-family: cursive;
+      }
+      
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 3px solid #005d05;
+        border-radius: 20px;
+        margin-top: 20px;
+        font-family: monospace;
+        font-weight: bold;
+      }
+      
+      .button {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      button {
+        background-color: #007718;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        animation: bounce 0.5s ease-in-out;
+      }
+      
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+      
+        50% {
+          transform: translateY(-10px);
+        }
+      
+        100% {
+          transform: translateY(0);
+        }
+      }
+      
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lets Calculate your current Carbon Footprint</h1>
+
+    <form id="questionnaire-form">
+      <!-- Question 1 -->
+      <div class="question">
+        <label for="question-1">How do you heat your home?</label>
+        <select id="question-1">
+          <option value="natural-gas">Natural gas</option>
+          <option value="electricity">Electricity</option>
+          <option value="heating-oil">Heating oil</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <label for "question-2">How do you cool your home?</label>
+        <select id="question-2">
+          <option value="air-conditioning">Air conditioning</option>
+          <option value="fans">Fans</option>
+          <option value="no-cooling">No cooling</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Question 3 -->
+<div class="question">
+    <label for="question-3">How energy-efficient is your home?</label>
+    <select id="question-3">
+      <option value="energy-efficient">Energy-efficient appliances and insulation</option>
+      <option value="average">Average</option>
+      <option value="not-energy-efficient">Not energy-efficient</option>
+    </select>
+  </div>
+  
+  <!-- Question 4 -->
+  <div class="question">
+    <label for="question-4">How do you commute to work or school?</label>
+    <select id="question-4">
+      <option value="car-solo">Car (solo)</option>
+      <option value="carpool">Carpool</option>
+      <option value="public-transportation">Public transportation</option>
+      <option value="bicycle-walking">Bicycle/walking</option>
+      <option value="telecommute">Telecommute</option>
+    </select>
+  </div>
+  
+  <!-- Question 5 -->
+  <div class="question">
+    <label for="question-5">How often do you fly for leisure or business?</label>
+    <select id="question-5">
+      <option value="frequently">Frequently</option>
+      <option value="occasionally">Occasionally</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 6 -->
+  <div class="question">
+    <label for="question-6">What type of vehicle do you drive?</label>
+    <select id="question-6">
+      <option value="electric-vehicle">Electric vehicle</option>
+      <option value="hybrid-vehicle">Hybrid vehicle</option>
+      <option value="gasoline-vehicle">Gasoline vehicle</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+
+  <!-- Question 3 -->
+<div class="question">
+    <label for="question-3">How energy-efficient is your home?</label>
+    <select id="question-3">
+      <option value="energy-efficient">Energy-efficient appliances and insulation</option>
+      <option value="average">Average</option>
+      <option value="not-energy-efficient">Not energy-efficient</option>
+    </select>
+  </div>
+  
+  <!-- Question 4 -->
+  <div class="question">
+    <label for="question-4">How do you commute to work or school?</label>
+    <select id="question-4">
+      <option value="car-solo">Car (solo)</option>
+      <option value="carpool">Carpool</option>
+      <option value="public-transportation">Public transportation</option>
+      <option value="bicycle-walking">Bicycle/walking</option>
+      <option value="telecommute">Telecommute</option>
+    </select>
+  </div>
+  
+  <!-- Question 5 -->
+  <div class="question">
+    <label for="question-5">How often do you fly for leisure or business?</label>
+    <select id="question-5">
+      <option value="frequently">Frequently</option>
+      <option value="occasionally">Occasionally</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 6 -->
+  <div class="question">
+    <label for="question-6">What type of vehicle do you drive?</label>
+    <select id="question-6">
+      <option value="electric-vehicle">Electric vehicle</option>
+      <option value="hybrid-vehicle">Hybrid vehicle</option>
+      <option value="gasoline-vehicle">Gasoline vehicle</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+  
+  <!-- Continue with the rest of the questions -->
+<!-- Question 11 -->
+<div class="question">
+    <label for="question-11">Do you follow a vegetarian or vegan diet?</label>
+    <select id="question-11">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 12 -->
+  <div class="question">
+    <label for="question-12">How often do you buy products second-hand?</label>
+    <select id="question-12">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 13 -->
+  <div class="question">
+    <label for="question-13">How often do you buy products with minimal packaging?</label>
+    <select id="question-13">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 14 -->
+  <div class="question">
+    <label for="question-14">How often do you take long-haul vacations?</label>
+    <select id="question-14">
+      <option value="frequently">Frequently</option>
+      <option value="occasionally">Occasionally</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Continue with the rest of the questions -->
+<!-- Question 15 -->
+<div class="question">
+    <label for="question-15">How do you travel on vacation?</label>
+    <select id="question-15">
+      <option value="air-travel">Air travel</option>
+      <option value="road-trips">Road trips</option>
+      <option value="train-bus">Train/bus</option>
+      <option value="staycations">Staycations</option>
+    </select>
+  </div>
+  
+  <!-- Question 16 -->
+  <div class="question">
+    <label for="question-16">How long are your showers on average?</label>
+    <select id="question-16">
+      <option value="less-than-5-minutes">Less than 5 minutes</option>
+      <option value="5-10-minutes">5-10 minutes</option>
+      <option value="10-15-minutes">10-15 minutes</option>
+      <option value="over-15-minutes">Over 15 minutes</option>
+    </select>
+  </div>
+  
+  <!-- Question 17 -->
+  <div class="question">
+    <label for="question-17">How often do you water your lawn or garden?</label>
+    <select id="question-17">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+      <option value="rarely-never">Rarely/never</option>
+    </select>
+  </div>
+  
+  <!-- Question 18 -->
+  <div class="question">
+    <label for="question-18">Do you turn off lights and appliances when not in use?</label>
+    <select id="question-18">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Continue with the rest of the questions -->
+<!-- Question 19 -->
+<div class="question">
+    <label for="question-19">Do you use energy-efficient light bulbs?</label>
+    <select id="question-19">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 20 -->
+  <div class="question">
+    <label for="question-20">Do you use a programmable thermostat for heating/cooling?</label>
+    <select id="question-20">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 21 -->
+  <div class="question">
+    <label for="question-21">How often do you dispose of electronic devices properly (recycling)?</label>
+    <select id="question-21">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 22 -->
+  <div class="question">
+    <label for="question-22">How often do you upgrade your electronic devices?</label>
+    <select id="question-22">
+      <option value="annually">Annually</option>
+      <option value="every-few-years">Every few years</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 23 -->
+  <div class="question">
+    <label for="question-23">Do you use energy-efficient appliances?</label>
+    <select id="question-23">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 24 -->
+  <div class="question">
+    <label for="question-24">Have you insulated your home for energy efficiency?</label>
+    <select id="question-24">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 25 -->
+  <div class="question">
+    <label for="question-25">Do you use public transportation for local travel?</label>
+    <select id="question-25">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+        
+  
+  <!-- Continue with the rest of the questions -->
+  <!-- Question 26 -->
+<div class="question">
+    <label for="question-26">How many miles do you drive per day for local trips?</label>
+    <select id="question-26">
+      <option value="none">None</option>
+      <option value="1-10-miles">1-10 miles</option>
+      <option value="11-25-miles">11-25 miles</option>
+      <option value="over-25-miles">Over 25 miles</option>
+    </select>
+  </div>
+  
+  <!-- Question 27 -->
+  <div class="question">
+    <label for="question-27">How much food do you throw away?</label>
+    <select id="question-27">
+      <option value="minimal-waste">Minimal waste</option>
+      <option value="some-waste">Some waste</option>
+      <option value="considerable-waste">Considerable waste</option>
+      <option value="significant-waste">Significant waste</option>
+    </select>
+  </div>
+  
+  <!-- Question 28 -->
+  <div class="question">
+    <label for="question-28">Do you buy food in bulk to reduce packaging?</label>
+    <select id="question-28">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 29 -->
+  <div class="question">
+    <label for="question-29">Do you use renewable energy sources (e.g., solar panels)?</label>
+    <select id="question-29">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+  <!-- Question 30 -->
+  <div class="question">
+    <label for="question-30">Do you actively reduce water and electricity usage in your home?</label>
+    <select id="question-30">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+
+  
+<!-- Question 31 -->
+<div class="question">
+    <label for="question-31">Do you recycle paper products?</label>
+    <select id="question-31">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 32 -->
+  <div
+  ```html
+  <div class="question">
+    <label for="question-32">Do you print double-sided and avoid excessive printing?</label>
+    <select id="question-32">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 33 -->
+  <div class="question">
+    <label for="question-33">Do you actively reduce single-use plastics (e.g., shopping bags, water bottles)?</label>
+    <select id="question-33">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 34 -->
+  <div class="question">
+    <label for="question-34">Do you use reusable containers and bags for groceries and takeout?</label>
+    <select id="question-34">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 35 -->
+  <div class="question">
+    <label for="question-35">Do you participate in carbon offset programs (e.g., tree planting)?</label>
+    <select id="question-35">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+
+  <!-- Question 36 -->
+<div class="question">
+    <label for="question-36">Do you support organizations that promote sustainability and carbon reduction?</label>
+    <select id="question-36">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 37 -->
+  <div class="question">
+    <label for="question-37">How many miles do you drive per year?</label>
+    <select id="question-37">
+      <option value="none">None</option>
+      <option value="1,000-5,000-miles">1,000 - 5,000 miles</option>
+      <option value="5,001-10,000-miles">5,001 - 10,000 miles</option>
+      <option value="over-10,000-miles">Over 10,000 miles</option>
+    </select>
+  </div>
+  
+  <!-- Question 38 -->
+  <div class="question">
+    <label for "question-38">Do you carpool or use rideshare services for commuting?</label>
+    <select id="question-38">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+  <!-- Question 39 -->
+  <div class="question">
+    <label for="question-39">Do you actively support eco-friendly and sustainable brands and products?</label>
+    <select id="question-39">
+      <option value="always">Always</option>
+      <option value="sometimes">Sometimes</option>
+      <option value="rarely">Rarely</option>
+      <option value="never">Never</option>
+    </select>
+  </div>
+  
+      <!-- Continue with the rest of the questions -->
+
+      <!-- Question 40 -->
+      <div class="question">
+        <label for="question-40">Do you participate in local environmental initiatives or clean-up efforts?</label>
+        <select id="question-40">
+          <option value="always">Always</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="rarely">Rarely</option>
+          <option value="never">Never</option>
+        </select>
+      </div>
+
+      <div class="button">
+        <button type="button" onclick="calculateCarbonFootprint()">Calculate Carbon Footprint</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function calculateCarbonFootprint() {
+      let totalEmissions = 0;
+
+      for (let i = 1; i <= 40; i++) {
+        const question = document.getElementById("question-" + i);
+        const selectedOption = question.value;
+
+        // Add emissions values based on selected options
+        switch (i) {
+          case 1:
+            if (selectedOption === "natural-gas") {
+              totalEmissions += 2.2;
+            } else if (selectedOption === "electricity") {
+              totalEmissions += 3.0;
+            } else if (selectedOption === "heating-oil") {
+              totalEmissions += 5.0;
+            } else if (selectedOption === "other") {
+              // Handle "Other" case if needed
+            }
+            break;
+
+          case 2:
+            if (selectedOption === "air-conditioning") {
+              totalEmissions += 3.5; // Update with actual emissions value
+            } else if (selectedOption === "fans") {
+              totalEmissions += 1.0; // Update with actual emissions value
+            } else if (selectedOption === "no-cooling") {
+              totalEmissions += 0; // No emissions for no cooling
+            } else if (selectedOption === "other") {
+              // Handle "Other" case if needed
+            }
+            break;
+
+          case 3:
+            if (selectedOption === "energy-efficient-appliances-and-insulation") {
+              totalEmissions += 1.0; // Update with actual emissions value
+            } else if (selectedOption === "average") {
+              totalEmissions += 3.0; // Update with actual emissions value
+            } else if (selectedOption === "not-energy-efficient") {
+              totalEmissions += 5.0; // Update with actual emissions value
+            }
+            break;
+
+            case 4:
+            if (selectedOption === "car-solo") {
+              totalEmissions += 4.0; // Update with actual emissions value
+            } else if (selectedOption === "carpool") {
+              totalEmissions += 2.0; // Update with actual emissions value
+            } else if (selectedOption === "public-transportation") {
+              totalEmissions += 1.0; // Update with actual emissions value
+            } else if (selectedOption === "bicycle-walking") {
+              totalEmissions += 0; // No emissions for walking/biking
+            } else if (selectedOption === "telecommute") {
+              totalEmissions += 0; // No emissions for telecommuting
+            }
+            break;
+
+            case 5:
+            if (selectedOption === "frequently") {
+              totalEmissions += 10.0;
+            } else if (selectedOption === "occasionally") {
+              totalEmissions += 5.0;
+            } else if (selectedOption === "rarely") {
+              totalEmissions += 2.0;
+            } else if (selectedOption === "never") {
+              totalEmissions += 0;
+            }
+            break;
+
+            case 6:
+            if (selectedOption === "electric-vehicle") {
+              totalEmissions += 0;
+            } else if (selectedOption === "hybrid-vehicle") {
+              totalEmissions += 1.0;
+            } else if (selectedOption === "gasoline-vehicle") {
+              totalEmissions += 2.0;
+            } else if (selectedOption === "none") {
+              totalEmissions += 0;
+            }
+            break;
+          
+          case 7:
+            if (selectedOption === "always") {
+              totalEmissions += 0;
+            } else if (selectedOption === "sometimes") {
+              totalEmissions += 1.0;
+            } else if (selectedOption === "rarely") {
+              totalEmissions += 2.0;
+            } else if (selectedOption === "never") {
+              totalEmissions += 3.0;
+            }
+            break;
+          
+          case 8:
+            if (selectedOption === "always") {
+              totalEmissions += 0;
+            } else if (selectedOption === "sometimes") {
+              totalEmissions += 1.0;
+            } else if (selectedOption === "rarely") {
+              totalEmissions += 2.0;
+            } else if (selectedOption === "never") {
+              totalEmissions += 3.0;
+            }
+            break;
+          
+          case 9:
+            if (selectedOption === "daily") {
+              totalEmissions += 3.0;
+            } else if (selectedOption === "weekly") {
+              totalEmissions += 2.0;
+            } else if (selectedOption === "monthly") {
+              totalEmissions += 1.0;
+            } else if (selectedOption === "rarely-never") {
+              totalEmissions += 0;
+            }
+            break;
+
+            case 10:
+  if (selectedOption === "daily") {
+    totalEmissions += 1.5;
+  } else if (selectedOption === "weekly") {
+    totalEmissions += 0.5;
+  } else if (selectedOption === "monthly") {
+    totalEmissions += 0.2;
+  } else if (selectedOption === "rarely-never") {
+    totalEmissions += 0;
+  }
+  break;
+
+case 11:
+  if (selectedOption === "yes") {
+    totalEmissions += 2.0;
+  } else if (selectedOption === "no") {
+    totalEmissions += 0;
+  }
+  break;
+
+case 12:
+  if (selectedOption === "always") {
+    totalEmissions += 0;
+  } else if (selectedOption === "sometimes") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 2.0;
+  } else if (selectedOption === "never") {
+    totalEmissions += 3.0;
+  }
+  break;
+
+case 13:
+  if (selectedOption === "always") {
+    totalEmissions += 0;
+  } else if (selectedOption === "sometimes") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 2.0;
+  } else if (selectedOption === "never") {
+    totalEmissions += 3.0;
+  }
+  break;
+
+case 14:
+  if (selectedOption === "frequently") {
+    totalEmissions += 3.0;
+  } else if (selectedOption === "occasionally") {
+    totalEmissions += 2.0;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "never") {
+    totalEmissions += 0;
+  }
+  break;
+
+case 15:
+  if (selectedOption === "air-travel") {
+    totalEmissions += 3.0;
+  } else if (selectedOption === "road-trips") {
+    totalEmissions += 2.0;
+  } else if (selectedOption === "train-bus") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "staycations") {
+    totalEmissions += 0;
+  }
+  break;
+
+  case 16:
+  if (selectedOption === "less-than-5-minutes") {
+    totalEmissions += 0;
+  } else if (selectedOption === "5-10-minutes") {
+    totalEmissions += 0.2;
+  } else if (selectedOption === "10-15-minutes") {
+    totalEmissions += 0.4;
+  } else if (selectedOption === "over-15-minutes") {
+    totalEmissions += 0.6;
+  }
+  break;
+
+case 17:
+  if (selectedOption === "daily") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "weekly") {
+    totalEmissions += 0.5;
+  } else if (selectedOption === "monthly") {
+    totalEmissions += 0.2;
+  } else if (selectedOption === "rarely-never") {
+    totalEmissions += 0;
+  }
+  break;
+
+case 18:
+  if (selectedOption === "always") {
+    totalEmissions += 0;
+  } else if (selectedOption === "sometimes") {
+    totalEmissions += 0.5;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "never") {
+    totalEmissions += 1.5;
+  }
+  break;
+
+case 19:
+  if (selectedOption === "yes") {
+    totalEmissions += 0;
+  } else if (selectedOption === "no") {
+    totalEmissions += 0.5;
+  }
+  break;
+
+case 20:
+  if (selectedOption === "yes") {
+    totalEmissions += 0;
+  } else if (selectedOption === "no") {
+    totalEmissions += 1.0;
+  }
+  break;
+
+  case 21:
+  if (selectedOption === "always") {
+    totalEmissions += 0;
+  } else if (selectedOption === "sometimes") {
+    totalEmissions += 0.2;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 0.4;
+  } else if (selectedOption === "never") {
+    totalEmissions += 0.6;
+  }
+  break;
+
+case 22:
+  if (selectedOption === "annually") {
+    totalEmissions += 0;
+  } else if (selectedOption === "every-few-years") {
+    totalEmissions += 0.5;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 1.0;
+  } else if (selectedOption === "never") {
+    totalEmissions += 1.5;
+  }
+  break;
+
+case 23:
+  if (selectedOption === "yes") {
+    totalEmissions += 0;
+  } else if (selectedOption === "no") {
+    totalEmissions += 1.0;
+  }
+  break;
+
+case 24:
+  if (selectedOption === "yes") {
+    totalEmissions += 0;
+  } else if (selectedOption === "no") {
+    totalEmissions += 1.0;
+  }
+  break;
+
+case 25:
+  if (selectedOption === "always") {
+    totalEmissions += 0;
+  } else if (selectedOption === "sometimes") {
+    totalEmissions += 0.2;
+  } else if (selectedOption === "rarely") {
+    totalEmissions += 0.4;
+  } else if (selectedOption === "never") {
+    totalEmissions += 0.6;
+  }
+  break;
+
+
+
+
+            case 39:
+        if (selectedOption === "always") {
+          totalEmissions += 1.0;
+        } else if (selectedOption === "sometimes") {
+          totalEmissions += 2.0;
+        } else if (selectedOption === "rarely") {
+          totalEmissions += 3.0;
+        } else if (selectedOption === "never") {
+          totalEmissions += 4.0;
+        }
+        break;
+
+
+
+          case 40:
+            if (selectedOption === "always") {
+              totalEmissions += 1.0; // Update with actual emissions value
+            } else if (selectedOption === "sometimes") {
+              totalEmissions += 2.0; // Update with actual emissions value
+            } else if (selectedOption === "rarely") {
+              totalEmissions += 3.0; // Update with actual emissions value
+            } else if (selectedOption === "never") {
+              totalEmissions += 4.0; // Update with actual emissions value
+            }
+            break;
+
+          default:
+            break;
+        }
+      }
+
+      // Display or process the total carbon footprint value
+      alert("Total Carbon Footprint: " + totalEmissions + " kg CO2e");
+    }
+</script>
+</body>
+</html>

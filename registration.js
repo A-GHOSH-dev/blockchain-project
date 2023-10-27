@@ -24,5 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.innerHTML = `Registration failed: ${data.error}`;
       }
     });
+
+
+ // Handle "View Challenges" button click
+ const navigateToChallengesButton = document.getElementById('navigate-to-challenges');
+ navigateToChallengesButton.style.display = 'none'; // Initially hide the button
+
+ navigateToChallengesButton.addEventListener('click', () => {
+     window.location.href = '/challenges'; // Redirect to the challenges page
+ });
+
+
   });
   

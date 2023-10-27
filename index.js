@@ -17,6 +17,8 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+//endpoints
+
 app.post('/register', async (req, res) => {
   const { userAddress, name } = req.body;
 
@@ -28,6 +30,29 @@ app.post('/register', async (req, res) => {
   }
 });
 
+app.get('/challenges', (req, res) => {
+  res.sendFile(path.join(__dirname, 'challenges.html'));
+});
+
+app.post('/challengeregister', async (req, res) => {
+  const { userAddress, name, challengeId } = req.body;
+
+  try {
+    const result = await registerUser(userAddress, name, challengeId);
+    res.json({ success: true, txHash: result.transactionHash });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+
+
+
+
+
+
