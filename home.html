@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarbonSmart Rewards Challenge Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0c4902;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #0c4902;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #ffffff;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.584) 0%, rgba(0, 0, 0, 0.589) 100%), url("https://adveco.co/wp-content/uploads/2023/07/zero-carbon-public-sector-768x292.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.678)
+
+    }
+
+    .intro p {
+      font-size: 30px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin: 20px 0;
+      text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.678)
+
+    }
+
+    .intro button {
+      background-color: #0c4902;
+      color: #ffffff;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.678)
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+      width: 500px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+      text-align: center;
+
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #434242;
+      margin: 10px 0;
+      text-align: justify;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 600px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #000000;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 20px;
+      color: #212121;
+      margin: 10px 0;
+      text-align: justify;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">CarbonSmart Rewards Challenge Hub</a>
+    <nav class="nav-items">
+      <a href="#">Register</a>
+      <a href="#">Challenges</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>CarbonSmart Rewards Challenge Hub</h1>
+      <p>Revolutionizing Environmental Action through Blockchain</p>
+      <button>Learn More</button>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-user"></i>
+        <p class="work-heading">User Registration</p>
+        <p class="work-text">Users can register on the platform by providing their Ethereum address and personal details. This ensures the transparency and security of their environmental actions.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-calculator"></i>
+        <p class="work-heading">Carbon Footprint Calculation</p>
+        <p class="work-text">Users complete a detailed questionnaire about their lifestyle choices, covering aspects like energy usage, transportation, waste management, diet, and more. The platform calculates their carbon footprint based on their responses, providing an insightful overview of their environmental impact.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-trophy"></i>
+        <p class="work-heading">Challenges and Rewards</p>
+        <p class="work-text">EcoChallengeHub hosts a variety of challenges, each with specific carbon reduction targets. Users can explore challenges tailored to their preferences and join them. The challenges are categorized into easy, medium, and hard levels, each with different carbon reduction goals.</p>
+      </div>
+    </div>
+    <div class="achievements">
+        <div class="work">
+          <i class="fas fa-upload"></i>
+          <p class="work-heading">Proof Submission</p>
+          <p class="work-text">To earn carbon credits, participants need to provide evidence of their efforts in reducing their carbon footprint. This can include utility bills, travel records, photos of eco-friendly practices, and receipts for sustainable product purchases.</p>
+        </div>
+        <div class="work">
+          <i class="fas fa-check-circle"></i>
+          <p class="work-heading">Blockchain Based Validation</p>
+          <p class="work-text">The platform employs blockchain technology to ensure the authenticity of submitted proof. Other participants in the challenge validate the proofs, promoting trust and reducing the risk of fraudulent claims.</p>
+        </div>
+        <div class="work">
+          <i class="fas fa-coins"></i>
+          <p class="work-heading">Carbon Credit Rewards</p>
+          <p class="work-text">Upon successful validation, participants receive carbon credits based on their achieved reduction and challenge level. These credits are securely recorded on the blockchain and can be exchanged or sold to organizations seeking to offset their carbon emissions.</p>
+        </div>
+      </div>
+      <div class="achievements">
+        <div class="work">
+          <i class="fas fa-chart-line"></i>
+          <p class="work-heading">Environmental Impact Tracking</p>
+          <p class="work-text">Users can monitor their personal environmental impact over time. The platform provides insights into how their choices affect the environment and offers suggestions for further improvement.</p>
+        </div>
+        <div class="work">
+          <i class="fas fa-users"></i>
+          <p class="work-heading">Community Engagement</p>
+          <p class="work-text">CarbonSmart Rewards Challenge Hub fosters a sense of community by connecting like-minded individuals and organizations dedicated to environmental sustainability. Participants can share their achievements, collaborate on challenges, and collectively work towards a greener planet.</p>
+        </div>
+        <div class="work">
+          <i class="fas fa-lock"></i>
+          <p class="work-heading">Blockchain-Powered Trust</p>
+          <p class="work-text">CarbonSmart Rewards Challenge Hub utilizes blockchain technology to securely validate carbon reduction efforts, ensuring transparency and trust among participants, and enabling the secure exchange of carbon credits.</p>
+        </div>
+      </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Us</h2>
+        <p>CarbonSmart Rewards Challenge Hub is an innovative platform that harnesses the power of blockchain technology to promote sustainable living, environmental awareness, and carbon reduction. It offers a comprehensive ecosystem for individuals and organizations to actively participate in reducing their carbon footprint, earn carbon credits, and contribute to a greener, more sustainable future. CarbonSmart Rewards Challenge Hub brings a gamified approach to environmental conservation. By participating in challenges and earning carbon credits, users are motivated to adopt sustainable practices and reduce their carbon footprint. The blockchain ensures transparency and security, making it a trusted platform for environmental action. Join CarbonSmart Rewards Challenge Hub and embark on a journey towards a more sustainable and eco-conscious lifestyle. Make a difference, reduce your carbon footprint, and earn rewards while contributing to a healthier planet.</p>
+      </div>
+      <img src="https://cdn-images-1.medium.com/max/1600/1*5kzdqlMAL4E2cY6vs69JQQ.png" alt="me">
+    </div>
+  </main>
+  
+</body>
+
+</html>
