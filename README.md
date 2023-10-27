@@ -985,6 +985,18 @@ graph TD
     ChallengeValidation --> RewardDistribution
 ```
 
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/3cb049d9-bcae-43ec-afa9-919842370dd7)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/0511219a-fb03-4a24-ba61-f29b4cd0b445)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c771fc23-eacb-4cc4-9b7b-0c5609c8c10f)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c297da8c-035e-4bc9-ba71-55d87c974dd4)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/e18c1846-d811-4a09-9282-6f05ebb4ad64)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/81a21116-39e7-4b0a-9993-71ad86603c97)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/6fed673c-02de-4a35-a976-284065b60760)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/1efd9487-a32e-4aff-a5c6-0cb2de14759b)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c8e09f1d-7376-4196-b4d4-476d807897b8)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/991df7a4-f5cb-44e8-8dc3-e97c1d890900)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/d026a85c-ab85-435a-a6f8-cc73bd72a222)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/43c01a90-8550-4dbb-b7ff-8201bf67d45c)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/58251162-e03b-49c5-a0bc-0ab635008e31)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/61d1e88c-88d4-486a-9a2a-b0862dbcb382)
 
