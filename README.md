@@ -1,5 +1,8 @@
 # Blockchain-Based Carbon Reduction Challenge Platform
 
+## ScreenShots of the work done:
+https://drive.google.com/file/d/1xU-rV8ym9fGyIxoRRAezMaTNLnfaZR4f/view?usp=sharing
+
 ## Problem Statement
 **Background:**
 Carbon emissions and climate change are pressing global concerns. Reducing carbon emissions at an individual, community, and corporate level is essential. Existing carbon reduction initiatives lack transparency, engagement, and incentives for meaningful participation. There is a need for a platform that can address these shortcomings.
