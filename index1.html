@@ -1,0 +1,174 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration and Login</title>
+</head>
+<body>
+    <h1>User Registration and Login</h1>
+
+    <div>
+        <h2>Register User</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+
+        <button onclick="registerUser()">Register</button>
+    </div>
+
+    <div>
+        <h2>Login</h2>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" placeholder="Enter your password">
+
+        <button onclick="loginUser()">Login</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+    <script>
+        const web3 = new Web3("http://localhost:7545"); // Connect to your local Ganache instance
+        const contractAddress = '0xF95Ed58f2f0B82e2Ef97B7D5d5eC5256C7822103'; // Replace with your deployed contract address
+        const contractABI = [
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_password",
+				"type": "string"
+			}
+		],
+		"name": "loginUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_password",
+				"type": "string"
+			}
+		],
+		"name": "registerUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "userAddress",
+				"type": "address"
+			}
+		],
+		"name": "UserLoggedIn",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "userAddress",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"name": "UserRegistered",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "isUserRegistered",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "users",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "password",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]; // Replace with your contract ABI
+
+        const userManagementContract = new web3.eth.Contract(contractABI, contractAddress);
+
+        async function registerUser() {
+            const name = document.getElementById('name').value;
+            const password = document.getElementById('password').value;
+
+            const accounts = await web3.eth.getAccounts();
+            await userManagementContract.methods.registerUser(name, password).send({ from: accounts[0] });
+
+            alert('User registered successfully!');
+        }
+
+        async function loginUser() {
+            const loginPassword = document.getElementById('loginPassword').value;
+
+           const accounts = await web3.eth.getAccounts();
+           const userAddress = accounts[0];
+
+           const result = await userManagementContract.methods.loginUser(loginPassword).send({ from: userAddress });
+console.log(result);
+           if (result.events.UserLoggedIn) {
+               // Redirect to another HTML page upon successful login
+               window.location.href = 'home.html'; // Replace with the desired HTML page
+           } else {
+               alert('Incorrect password or user not registered.');
+           }
+       }
+    </script>
+</body>
+</html>
