@@ -18,3 +18,16 @@ contract UserManagementContract {
         require(isUserRegistered[msg.sender], "User not registered.");
         _;
     }
+
+
+    function registerUser(string memory _name, string memory _password) public {
+        require(!isUserRegistered[msg.sender], "User already registered.");
+
+        User storage user = users[msg.sender];
+        user.name = _name;
+        user.password = _password;
+
+        isUserRegistered[msg.sender] = true;
+
+        emit UserRegistered(msg.sender, _name);
+    }
