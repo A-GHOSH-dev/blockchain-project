@@ -31,3 +31,11 @@ contract UserManagementContract {
 
         emit UserRegistered(msg.sender, _name);
     }
+
+
+    function loginUser(string memory _password) public onlyRegisteredUser {
+        require(keccak256(abi.encodePacked(_password)) == keccak256(abi.encodePacked(users[msg.sender].password)), "Incorrect password.");
+
+        emit UserLoggedIn(msg.sender);
+    }
+}
