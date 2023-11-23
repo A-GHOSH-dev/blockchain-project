@@ -250,127 +250,127 @@ pie
   "Community Building" : 15
 ```
 ## Literature Review
-# 1.Transparency in Carbon Credit by Automating Data-Management Using Blockchain
+### 1.Transparency in Carbon Credit by Automating Data-Management Using Blockchain
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
-### Literature Review:
+#### Literature Review:
 - Conduct an extensive literature review to understand challenges in the carbon credit system.
 - Analyze efforts from the past decade, identifying shortcomings.
 - Review literature on the Kyoto Protocol for historical context and international framework.
 
-### Identification of Challenges:
+#### Identification of Challenges:
 - Clearly identify major challenges: data manipulation, lack of transparency, and high costs.
 
-### Conceptualization of Blockchain Solution:
+#### Conceptualization of Blockchain Solution:
 - Develop a conceptual framework to integrate Blockchain to address challenges.
 - Justify Blockchain selection, highlighting security, transparency, and accessibility benefits.
 
-### Integration of Sensors:
+#### Integration of Sensors:
 - Propose MH-Z14A sensors for automated data collection in the carbon credit ecosystem.
 - Articulate the role of sensors in providing reliable and accurate data, especially in detecting CO2 emissions.
 
-### Setup for CO2 Sensors:
+#### Setup for CO2 Sensors:
 - Design a setup for CO2 sensors, ensuring compliance with government regulations.
 - Outline specifications and positioning of MH-Z14A sensors for accurate measurement.
 
-### Blockchain Platform Development:
+#### Blockchain Platform Development:
 - Detail the development of the Blockchain platform for high-emitting organizations to detect carbon footprints.
 - Emphasize Blockchain's role in ensuring accuracy, security, and transparency of emission data.
 
-### Infrared Sensors (MH-Z14A):
+#### Infrared Sensors (MH-Z14A):
 - Provide information on MH-Z14A sensors, highlighting accuracy, reliability, and measurement range for CO2 gas.
 - Justify MH-Z14A sensor selection based on high accuracy and suitability.
 
-### Policy Recommendations:
+#### Policy Recommendations:
 - Propose genuine policies for governing the carbon credit ecosystem.
 - Focus on reducing GHG emissions and incentivizing organizations to participate in carbon trading.
 - Emphasize the importance of implementing policies for the success and credibility of the Blockchain-based solution.
-# 2.Design of Carbon Inclusive Market System based on Blockchain Technology
+### 2.Design of Carbon Inclusive Market System based on Blockchain Technology
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
-### Literature Review:
+#### Literature Review:
 - Examine existing enterprise-level carbon credit policies.
 - Investigate personal-level carbon trading policies and identify gaps.
 
-### Analysis:
+#### Analysis:
 - Define the meaning of carbon credit and highlight current policy support.
 - Stress the need for extending policies to the personal level for a dual-carbon strategy.
 
-### Regional Chain Technology:
+#### Regional Chain Technology:
 - Suggest adopting regional chain technology.
 - Segregate enterprise and personal carbon trading into public and side chains.
 
-### Personal Carbon Trading Model:
+#### Personal Carbon Trading Model:
 - Develop a model using regional chain technology.
 - Address public resource congestion and enhance transaction efficiency.
 
-### Simulation:
+#### Simulation:
 - Simulate the individual transaction model.
 - Use results as a basis for policy recommendations.
 
-### Guiding Significance:
+#### Guiding Significance:
 - Analyze implications on carbon trading prices.
 - Explain practical significance and potential trends.
 
-### Closing Remarks:
+#### Closing Remarks:
 - Summarize key findings and innovations.
 - Highlight multi-party interaction and price-driven mechanisms.
 
-### Future Outlook:
+#### Future Outlook:
 - Discuss the rise of regional chain technology.
 - Propose areas for future research and development.
 
-### Conclusion:
+#### Conclusion:
 - Emphasize the importance of the proposed model.
 - Conclude by underscoring regional chain technology's role in efficient carbon trading.
 
-# 3.Carbon Credits Price for Renewable Energy and Forestry Projects in America and The Caribbean
+#### 3.Carbon Credits Price for Renewable Energy and Forestry Projects in America and The Caribbean
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
 The proposed methodology is derived from a literature review of initiatives related to carbon pricing in the Americas, the Caribbean, and globally. The study focuses on the voluntary carbon credit market, particularly transactions following the VERRA (VCS, VCS+CCB) and Gold Standard for the SDGs, representing over 90% of global carbon credit transactions, notably in forestry and renewable energy projects.
 
-### Identification of Principal Variables:
+#### Identification of Principal Variables:
 
 - Identify and model the principal variables influencing variations in carbon credit prices.
 - Examine the impact of national strategies on carbon credit prices.
 
-### Consideration of Project Location:
+#### Consideration of Project Location:
 
 - Assess the significance of project location in determining carbon credit price variation, especially in countries with existing carbon pricing strategies.
 
-### Certification of Co-Benefits:
+#### Certification of Co-Benefits:
 
 - Investigate the effect of certifying co-benefits on the buyer's culture.
 - Analyze the impact of co-benefit certification on the credibility of projects and its indirect influence on carbon credit prices.
 
-### Reputation and Credibility:
+#### Reputation and Credibility:
 
 - Explore the reputation-enhancing effects of projects with certified co-benefits.
 - Consider the importance of co-benefits in reducing inequity and promoting transparency in benefit distribution.
 
-### Buyer Preferences and Project Selection:
+#### Buyer Preferences and Project Selection:
 
 - Examine buyer preferences for projects in economies of medium to low incomes, particularly those with certified co-benefits and charismatic qualities.
 - Analyze how buyer preferences may influence the final carbon credit price.
 
-### Integration of Co-Benefits and Carbon Markets:
+#### Integration of Co-Benefits and Carbon Markets:
 
 - Discuss the growing global interest in biodiversity indicators and impact-driven strategies.
 - Explore how projects with associated co-benefits become foundational for ecosystem service payment strategies globally.
 
-### Global Transition and Market Development:
+#### Global Transition and Market Development:
 
 - Evaluate the potential linkage between carbon markets and biodiversity markets.
 - Consider the role of projects with co-benefits as catalysts for developing strategies around Ecosystem Services Payments worldwide.
 
-### Country-Specific Analysis:
+#### Country-Specific Analysis:
 
 - Conduct a detailed analysis of conditions in Colombia, Peru, and Brazil for the potential development of a combined market for carbon credits and ecosystem services.
 
-## Conclusion and Future Research:
+#### Conclusion and Future Research:
 
 - Conclude by emphasizing the importance of co-benefits in project marketing and buyer attention.
 - Discuss the model's findings that while co-benefits influence project selection, the final carbon credit price is primarily influenced by the project type.
