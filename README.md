@@ -567,6 +567,40 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Articulate the ultimate goal of increasing consumer access to clean energy and fuel while incentivizing greater production.
 - Highlight the societal and environmental benefits that result from achieving these goals for the current and future generations.
 
+# Performance Analysis of an Energy Trading Platform Using the Ethereum Blockchain
+
+## Proposed Methodology:
+
+### Implementation of Local Electricity Market:
+
+- Develop a local electricity market on the Ethereum platform using a double auction model for energy trading.
+
+### Blockchain Performance Evaluation:
+
+- Evaluate Ethereum platform performance systematically, focusing on scalability, real-time capabilities, throughput, and latency.
+
+### Scalability Limits and Resource Identification:
+
+- Relate scalability limits to Ethereum's throughput and latency.
+- Identify minimum resources needed to operate an Ethereum client for the energy market.
+
+### Efficient Market Operation Proposal:
+
+- Propose an efficient market operation method based on performance evaluation findings.
+
+### Performance Highlights and Insights:
+
+- Highlight achieved performance (40 TPS, 10 seconds latency) and insights into scalability improvements for real-time trading.
+
+### Cost-Effective Operation and Platform Considerations:
+
+- Confirm cost-effective operation with minimal hardware requirements (one core of 64-bit CPU, 2 GB memory).
+- Suggest the use of PoA-based Ethereum or alternative platforms for real-time trading due to PoW limitations.
+
+### Contributions to Energy Market Development:
+
+- Conclude by emphasizing contributions to establishing a cost-effective energy market on the blockchain.
+- Advocate for considering alternative platforms for specific use cases requiring real-time trading.
 
 
 
