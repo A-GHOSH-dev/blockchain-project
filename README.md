@@ -1,24 +1,18 @@
 # Blockchain-Based Carbon Reduction Challenge Platform
 
 # Contents:
-Problem Statement
-Proposed Solution
-Motivation
-Project Overview
-Implementation Steps
-Blockchain Integration Overview
-Novelty and Advantages of the Project
-Existing Solutions vs. Blockchain-Based Carbon Reduction Challenge Platform
-Project Workflow
-Technology Stack
-Detailed Project Workflow
-Conclusion
-References
-
-
-
-## ScreenShots of the work done:
-https://drive.google.com/file/d/1xU-rV8ym9fGyIxoRRAezMaTNLnfaZR4f/view?usp=sharing
+- [Problem Statement](https://github.com/A-GHOSH-dev/blockchain-project#problem-statement)
+- [Proposed Solution and Motivation](https://github.com/A-GHOSH-dev/blockchain-project#proposed-solution)
+- [Project Overview](https://github.com/A-GHOSH-dev/blockchain-project#project-overview)
+- [Implementation Steps](https://github.com/A-GHOSH-dev/blockchain-project#implementation-steps)
+- [Blockchain Integration Overview](https://github.com/A-GHOSH-dev/blockchain-project#blockchain-integration-overview)
+- [Novelty of the proposed work and Advantages of the Project](https://github.com/A-GHOSH-dev/blockchain-project#advantages-of-the-project)
+- [Existing Solutions vs. Blockchain-Based Carbon Reduction Challenge Platform](https://github.com/A-GHOSH-dev/blockchain-project#existing-solutions-vs-blockchain-based-carbon-reduction-challenge-platform)
+- [Literature Review](https://github.com/A-GHOSH-dev/blockchain-project#literature-review)
+- [Project Workflow with Technology Stack](https://github.com/A-GHOSH-dev/blockchain-project#project-workflow)
+- [Detailed Project Workflow](https://github.com/A-GHOSH-dev/blockchain-project#workflow)
+- [Conclusion](https://github.com/A-GHOSH-dev/blockchain-project#conclusion)
+- [References](https://github.com/A-GHOSH-dev/blockchain-project#references)
 
 ## Problem Statement
 **Background:**
@@ -254,6 +248,8 @@ pie
   "Security" : 20
   "Community Building" : 15
 ```
+## Literature Review
+
 
 ## Project Workflow
 
