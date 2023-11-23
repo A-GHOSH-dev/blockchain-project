@@ -639,37 +639,64 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Discuss potential areas for future research and development in implementing blockchain for electricity consumption monitoring in Smart Grids.
 - Encourage continued exploration of blockchain applications in advanced measurement systems.
 
+# Carbon Credits on Blockchain
 
+## Proposed Methodology:
 
+### Literature Review:
 
+- Conduct a comprehensive literature review on existing carbon trading systems, focusing on their limitations and challenges.
+- Investigate blockchain technology's applications in decentralized and transparent systems, particularly in the context of carbon trading.
 
+### Token-Based Economy Proposal:
 
+- Propose a token-based economy for carbon trading using blockchain to ensure decentralization and transparency globally.
+- Explore the digital tracking of carbon emission permits as a key element in the proposed system.
 
+### Safeguard Against Credit Hoarding:
 
+- Develop mechanisms within the blockchain-based system to safeguard against the hoarding of carbon credits.
+- Address potential issues related to market manipulation and ensure fair distribution and utilization of carbon credits.
 
+### Conclusion:
 
+- Summarize the presented blockchain solution for trading carbon credits.
+- Emphasize the benefits of tracking carbon credits using blockchain technology, including enhanced usefulness, participation, and cost-effectiveness.
 
+### Future Scope:
 
+- Acknowledge the ongoing nature of the work and the evolving nature of blockchain technology.
+- Highlight the potential for replacing the Clean Development Mechanism registry with a blockchain ledger to support the growth of the carbon market.
 
+### Spatial Differentiation in Token Pricing:
 
+- Propose a model for spatial differentiation in token pricing based on the location's susceptibility to pollution.
+- Advocate for adjusting token prices to make it costlier to pollute areas already experiencing high pollution levels.
 
+### Implementation Viability and Focus:
 
+- Affirm the viability of the proposed implementation at the industry level.
+- Acknowledge the intensive nature of emission tracking and focus initially on corporate-level use cases.
 
+### Tracking at Consumer Level:
 
+- Discuss the potential for extrapolating the proposed system to track and inhibit pollution at the individual consumer level.
+- Recognize the need for advancements in tracking mechanisms and technologies to enable consumer-level tracking.
 
+### Scalability Challenges:
 
+- Address scalability challenges associated with blockchain technology for consumer-level transactions.
+- Recognize that blockchains currently face difficulties with numerous small-scale transactions but anticipate future adaptations to overcome these challenges.
 
+### Consumer Level Carbon Tax Scheme:
 
+- Envision the implementation of a consumer-level carbon tax scheme based on accurate tracking of individual carbon emissions.
+- Highlight the potential to dissuade unnecessary pollution through a normalized carbon tax, such as adding it to transportation expenses.
 
+### Conclusion and Future Adaptations:
 
-
-
-
-
-
-
-
-
+- Conclude by emphasizing the need to address scalability issues and the potential for future adaptations in blockchain technology.
+- Emphasize the long-term goal of instilling environmentally friendly habits through accurate tracking and taxation at all levels.
 
 
 ## Project Workflow
