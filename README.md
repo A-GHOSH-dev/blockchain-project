@@ -602,6 +602,42 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Conclude by emphasizing contributions to establishing a cost-effective energy market on the blockchain.
 - Advocate for considering alternative platforms for specific use cases requiring real-time trading.
 
+# Energy Consumption Monitoring using Private Blockchain Network based on Ethereum Smart Contracts
+
+## Proposed Methodology:
+
+### Introduction:
+
+- Address security concerns in monitoring current consumption in a smart grid.
+- Emphasize the need for data integrity, protection, and synchronization in the transmission of power consumption data.
+
+### Literature Review:
+
+- Investigate existing methodologies for monitoring electricity consumption in Smart Grids.
+- Identify challenges, including security vulnerabilities in communication and potential data loss risks associated with centralized servers.
+
+### Blockchain and Smart Contracts Solution:
+
+- Propose a solution utilizing a private blockchain network and Ethereum-based smart contracts for secure data transmission.
+- Highlight advantages, including ensured data integrity, synchronization among nodes, and data protection through decentralized storage.
+- Addressing Energy Consumption Concerns:
+  - Acknowledge potential drawbacks, such as increased energy consumption with each blockchain node.
+  - Introduce a solution by adapting the consensus algorithm to low power consumption, mitigating the energy impact of blockchain implementation.
+
+### Efficient Implementation at Node Level:
+
+- Describe an archiving method inherent to the proposed blockchain solution.
+- Emphasize the efficiency of the solution at the node level, offering comparative analyses with traditional server-based solutions.
+
+### Conclusion:
+
+- Summarize the presented platform solution for monitoring electricity consumption in Smart Grids using blockchain and Ethereum smart contracts.
+- Highlight the unique aspects of the solution, including reduced electricity consumption, data protection, authorization, and low cost.
+
+### Future Development Directions:
+
+- Discuss potential areas for future research and development in implementing blockchain for electricity consumption monitoring in Smart Grids.
+- Encourage continued exploration of blockchain applications in advanced measurement systems.
 
 
 
