@@ -11,6 +11,7 @@
 - [Literature Review](https://github.com/A-GHOSH-dev/blockchain-project#literature-review)
 - [Project Workflow with Technology Stack](https://github.com/A-GHOSH-dev/blockchain-project#project-workflow)
 - [Detailed Project Workflow](https://github.com/A-GHOSH-dev/blockchain-project#workflow)
+- [Results and discussion on findings]()
 - [Conclusion](https://github.com/A-GHOSH-dev/blockchain-project#conclusion)
 - [References](https://github.com/A-GHOSH-dev/blockchain-project#references)
 
@@ -1034,6 +1035,8 @@ graph TD
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/4e288f37-3578-4c76-84f9-2bba226f5f46)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/fe486b53-cb48-45fa-930b-9fa207afaf35)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/2eee345a-5f52-48f0-87f7-0aa3198ea6b0)
+
+## Results and discussion on findings
 
 
 ## Conclusion
