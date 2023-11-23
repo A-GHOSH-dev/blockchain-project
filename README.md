@@ -422,6 +422,63 @@ The proposed methodology is derived from a literature review addressing inconsis
 - Conclude by summarizing the key contributions of the proposed Blockchain and IoT-based framework.
 - Emphasize the potential policy implications and the importance of integrating advanced technologies for sustainable development in the context of carbon emission monitoring and trading.
 
+# Decentralized Energy To Power Rural Homes Through Smart Contracts And Carbon Credit
+
+## Proposed Methodology:
+
+The proposed methodology is formulated through a literature review highlighting the significance of blockchain technology in creating secure and trustless environments. The focus is on addressing the growing demand for rural electrification using a Distributed Application (DApp) that combines blockchain and IoT for energy trading. The methodology involves the following steps:
+
+### Literature Review:
+
+- Conduct an in-depth literature review on the applications of blockchain technology, particularly in the energy industry.
+- Explore existing innovations in renewable energy, decentralization, and digitization.
+
+### Identifying Application Scope:
+
+- Recognize the potential applications of blockchain and IoT in addressing rural electrification challenges.
+- Identify opportunities for the convergence of blockchain and renewable energy technologies.
+
+### Conceptualization of DApp:
+
+- Conceptualize a Distributed Application (DApp) that securely records ownership and consumption of energy generated through solar panels connected via IoT devices.
+- Explore the IOTA tangle framework and Python libraries for DApp development.
+
+### Development of DApp:
+
+- Develop the proposed DApp using the IOTA tangle framework and Python libraries, including Python-Flask, pyota, and the ADS1115 library.
+- Ensure end-to-end functionality for recording and transacting energy consumption data.
+
+### Blockchain Integration:
+
+- Integrate blockchain to securely store readings from IoT devices connected to solar panels.
+- Implement smart contracts to facilitate transactions based on energy consumption by end-users.
+
+### Testing and Evaluation:
+
+- Evaluate the efficiency and accountability improvements offered by distributed ledger technology in comparison to conventional systems.
+- Test the immutability of records on the blockchain and the effectiveness of the proposed solution.
+
+### Deployment and Availability:
+
+- Deploy the developed solution, making it publicly available through platforms like GitHub.
+- Provide access to the solution for transparency and collaborative development.
+
+### Future Work Incorporating Algorand:
+
+- Identify scalability as a potential concern and propose the incorporation of a scalable blockchain solution like Algorand.
+- Highlight the advantages of Algorand's Pure Proof of Stake protocol and permissionless blockchain for decentralized networks.
+
+### Conclusion and Impact Assessment:
+
+- Conclude by summarizing the achievements of the proposed model in addressing rural electrification challenges.
+- Assess the impact of the developed DApp on improving incentives for utility providers through carbon credits or renewable energy certificates.
+
+### Future Prospects with Algorand:
+
+- Discuss the potential benefits of transitioning to Algorand for improved scalability and decentralization.
+- Emphasize the ongoing nature of research and development, suggesting a continuous commitment to innovation.
+
+
 
 
 
