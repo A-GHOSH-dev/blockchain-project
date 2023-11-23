@@ -250,7 +250,7 @@ pie
   "Community Building" : 15
 ```
 ## Literature Review
-# Transparency in Carbon Credit by Automating Data-Management Using Blockchain
+# 1.Transparency in Carbon Credit by Automating Data-Management Using Blockchain
 
 ## Proposed Methodology:
 
@@ -286,7 +286,7 @@ pie
 - Propose genuine policies for governing the carbon credit ecosystem.
 - Focus on reducing GHG emissions and incentivizing organizations to participate in carbon trading.
 - Emphasize the importance of implementing policies for the success and credibility of the Blockchain-based solution.
-# Design of Carbon Inclusive Market System based on Blockchain Technology
+# 2.Design of Carbon Inclusive Market System based on Blockchain Technology
 
 ## Proposed Methodology:
 
@@ -326,7 +326,7 @@ pie
 - Emphasize the importance of the proposed model.
 - Conclude by underscoring regional chain technology's role in efficient carbon trading.
 
-# Carbon Credits Price for Renewable Energy and Forestry Projects in America and The Caribbean
+# 3.Carbon Credits Price for Renewable Energy and Forestry Projects in America and The Caribbean
 
 ## Proposed Methodology:
 
@@ -376,7 +376,7 @@ The proposed methodology is derived from a literature review of initiatives rela
 - Discuss the model's findings that while co-benefits influence project selection, the final carbon credit price is primarily influenced by the project type.
 - Highlight the potential for Colombia, Peru, and Brazil to lead in combined markets for carbon credits and ecosystem services.
 
-# CARBON EMISSION MONITORING AND CREDIT TRADING: THE BLOCKCHAIN AND IoT APPROACH
+# 4.CARBON EMISSION MONITORING AND CREDIT TRADING: THE BLOCKCHAIN AND IoT APPROACH
 
 ## Proposed Methodology:
 
@@ -422,7 +422,7 @@ The proposed methodology is derived from a literature review addressing inconsis
 - Conclude by summarizing the key contributions of the proposed Blockchain and IoT-based framework.
 - Emphasize the potential policy implications and the importance of integrating advanced technologies for sustainable development in the context of carbon emission monitoring and trading.
 
-# Decentralized Energy To Power Rural Homes Through Smart Contracts And Carbon Credit
+# 5.Decentralized Energy To Power Rural Homes Through Smart Contracts And Carbon Credit
 
 ## Proposed Methodology:
 
@@ -478,7 +478,7 @@ The proposed methodology is formulated through a literature review highlighting 
 - Discuss the potential benefits of transitioning to Algorand for improved scalability and decentralization.
 - Emphasize the ongoing nature of research and development, suggesting a continuous commitment to innovation.
 
-# Optimal Allocation of Carbon Credits to Emitting Agents in a Carbon Economy
+# 6.Optimal Allocation of Carbon Credits to Emitting Agents in a Carbon Economy
 
 ## Proposed Methodology:
 
@@ -516,7 +516,7 @@ The proposed methodology is developed through a comprehensive literature review 
 - Highlight the potential for future research to enhance the reliability and justifiability of carbon credit allocations, especially in strategic player scenarios.
 
 
-# Establishing a Secure, Transparent, and Autonomous Blockchain of Custody for Renewable Energy Credits and Carbon Credits
+# 7.Establishing a Secure, Transparent, and Autonomous Blockchain of Custody for Renewable Energy Credits and Carbon Credits
 
 ## Proposed Methodology:
 
@@ -567,7 +567,7 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Articulate the ultimate goal of increasing consumer access to clean energy and fuel while incentivizing greater production.
 - Highlight the societal and environmental benefits that result from achieving these goals for the current and future generations.
 
-# Performance Analysis of an Energy Trading Platform Using the Ethereum Blockchain
+# 8.Performance Analysis of an Energy Trading Platform Using the Ethereum Blockchain
 
 ## Proposed Methodology:
 
@@ -602,7 +602,7 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Conclude by emphasizing contributions to establishing a cost-effective energy market on the blockchain.
 - Advocate for considering alternative platforms for specific use cases requiring real-time trading.
 
-# Energy Consumption Monitoring using Private Blockchain Network based on Ethereum Smart Contracts
+# 9.Energy Consumption Monitoring using Private Blockchain Network based on Ethereum Smart Contracts
 
 ## Proposed Methodology:
 
@@ -639,7 +639,7 @@ The proposed methodology is derived from a literature review, focusing on addres
 - Discuss potential areas for future research and development in implementing blockchain for electricity consumption monitoring in Smart Grids.
 - Encourage continued exploration of blockchain applications in advanced measurement systems.
 
-# Carbon Credits on Blockchain
+# 10.Carbon Credits on Blockchain
 
 ## Proposed Methodology:
 
