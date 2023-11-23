@@ -250,44 +250,46 @@ pie
   "Community Building" : 15
 ```
 ## Literature Review
-###1.Transparency in Carbon Credit by Automating Data-Management Using Blockchain
+# Transparency in Carbon Credit by Automating Data-Management Using Blockchain
 
-####Proposed Methodology:
+## Proposed Methodology:
 
--The proposed methodology for implementing the Blockchain-based carbon credit ecosystem, as outlined in the abstract, is underpinned by a comprehensive literature review. The steps ----involved in the methodology are clearly stated to address the challenges of data manipulation, lack of transparency, and substantial costs in the current carbon credit system.
+### Literature Review:
+- Conduct an extensive literature review to understand challenges in the carbon credit system.
+- Analyze efforts from the past decade, identifying shortcomings.
+- Review literature on the Kyoto Protocol for historical context and international framework.
 
-####Literature Review:
+### Identification of Challenges:
+- Clearly identify major challenges: data manipulation, lack of transparency, and high costs.
 
--Conduct an extensive literature review to understand the existing challenges in the carbon credit system, analyzing efforts made in the past decade, and identifying shortcomings.
--Review literature on the Kyoto Protocol to gain insights into the historical context and the international framework for carbon emissions control.
-####Identification of Challenges:
+### Conceptualization of Blockchain Solution:
+- Develop a conceptual framework to integrate Blockchain to address challenges.
+- Justify Blockchain selection, highlighting security, transparency, and accessibility benefits.
 
--Clearly identify the major challenges faced in the current carbon credit system, emphasizing data manipulation, lack of transparency, and high costs.
-####Conceptualization of Blockchain Solution:
+### Integration of Sensors:
+- Propose MH-Z14A sensors for automated data collection in the carbon credit ecosystem.
+- Articulate the role of sensors in providing reliable and accurate data, especially in detecting CO2 emissions.
 
--Develop a conceptual framework for integrating Blockchain technology into the carbon credit system to address the identified challenges.
--Justify the selection of Blockchain by highlighting its potential to provide security, transparency, and accessibility to standardized carbon markets.
-####Integration of Sensors:
+### Setup for CO2 Sensors:
+- Design a setup for CO2 sensors, ensuring compliance with government regulations.
+- Outline specifications and positioning of MH-Z14A sensors for accurate measurement.
 
--Propose the integration of sensors, specifically MH-Z14A sensors, to automate data collection in the carbon credit ecosystem.
--Clearly articulate the role of sensors in providing reliable and accurate data, particularly in detecting CO2 emissions with reliability and selectivity.
-####Setup for CO2 Sensors:
+### Blockchain Platform Development:
+- Detail the development of the Blockchain platform for high-emitting organizations to detect carbon footprints.
+- Emphasize Blockchain's role in ensuring accuracy, security, and transparency of emission data.
 
--Design a setup for CO2 sensors, ensuring compliance with government regulations and standards to achieve accurate and error-free values of liberated CO2 gas.
--Outline the specifications and positioning of MH-Z14A sensors to meet the requirements for accurate measurement within the established legal framework.
-####Blockchain Platform Development:
+### Infrared Sensors (MH-Z14A):
+- Provide information on MH-Z14A sensors, highlighting accuracy, reliability, and measurement range for CO2 gas.
+- Justify MH-Z14A sensor selection based on high accuracy and suitability.
 
--Detail the development of the Blockchain platform, describing how it will enable high-emitting organizations to detect their carbon footprints and engage in carbon credit
--transactions with low emitters.
--Emphasize the role of Blockchain in ensuring the accuracy, security, and transparency of emission data.
-####Infrared Sensors (MH-Z14A):
+### Policy Recommendations:
+- Propose genuine policies for governing the carbon credit ecosystem.
+- Focus on reducing GHG emissions and incentivizing organizations to participate in carbon trading.
+- Emphasize the importance of implementing policies for the success and credibility of the Blockchain-based solution.
 
--Provide information on the MH-Z14A sensors, highlighting their accuracy, reliability, and measurement range for CO2 gas.
--Justify the selection of MH-Z14A sensors based on their high accuracy and suitability for the proposed application.
-####Policy Recommendations:
 
--Propose genuine policies for governing the carbon credit ecosystem, with a focus on clamping down on GHG emissions and incentivizing organizations to participate in carbon trading.
--Emphasize the importance of drawing up and implementing policies to ensure the success and credibility of the proposed Blockchain-based solution.
+
+
 
 
 ## Project Workflow
