@@ -1040,6 +1040,8 @@ graph TD
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c93c71d7-9758-4a23-b650-431582339f64)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c6bde89e-7573-49cf-a692-271e70dd5b19)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/edb678cb-7136-4329-b2c5-22050aa8f6fa)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/5709963e-206a-434d-8a5c-ff6ceabe0853)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/4e288f37-3578-4c76-84f9-2bba226f5f46)
 
 
 
