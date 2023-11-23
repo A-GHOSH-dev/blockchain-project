@@ -376,141 +376,141 @@ The proposed methodology is derived from a literature review of initiatives rela
 - Discuss the model's findings that while co-benefits influence project selection, the final carbon credit price is primarily influenced by the project type.
 - Highlight the potential for Colombia, Peru, and Brazil to lead in combined markets for carbon credits and ecosystem services.
 
-# 4.CARBON EMISSION MONITORING AND CREDIT TRADING: THE BLOCKCHAIN AND IoT APPROACH
+### 4.CARBON EMISSION MONITORING AND CREDIT TRADING: THE BLOCKCHAIN AND IoT APPROACH
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
 The proposed methodology is derived from a literature review addressing inconsistencies in carbon dioxide emission data and the need for a decentralized, transparent, and traceable system for carbon emission monitoring and credit trading. The methodology focuses on implementing a Blockchain and IoT-based framework on the FISCO bcos platform.
 
-### Literature Review:
+#### Literature Review:
 
 - Conduct an extensive literature review on existing challenges in carbon emission monitoring and credit trading.
 - Identify the shortcomings in current systems that hinder the development of low-carbon cities.
 
-### Framework Design:
+#### Framework Design:
 
 - Propose a Blockchain and IoT-based framework on the FISCO bcos platform for monitoring enterprise carbon emissions and facilitating carbon credit trading using smart contracts.
 - Ensure decentralization, transparency, traceability, and trustlessness in the proposed system.
 
-### Implementation on FISCO bcos Platform:
+#### Implementation on FISCO bcos Platform:
 
 - Implement the proposed framework on the FISCO bcos platform, considering its features such as decentralization and high scalability.
 - Utilize smart contracts to automate and secure the carbon credit trading process.
 
-### System Evaluation:
+#### System Evaluation:
 
 - Evaluate the performance of the implemented system in comparison to other solutions, with a focus on system median response time.
 - Use empirical data to demonstrate the superiority of the proposed system, emphasizing its efficiency and reliability.
 
-### Policy Implications:
+#### Policy Implications:
 
 - Translate the findings into a policy dimension, advocating for the incorporation of blockchain technology in carbon emission monitoring and trading.
 - Highlight the potential benefits of the proposed system for achieving sustainable development goals, particularly in the context of low-carbon cities.
 
-### Integration with Smart Cities:
+#### Integration with Smart Cities:
 
 - Explore the integration of the proposed system with smart cities, emphasizing the role of green infrastructure and technologies in limiting environmental pollution.
 - Identify opportunities for advancing blockchain and IoT applications within the context of climate change and smart cities.
 
-### Future Work:
+#### Future Work:
 
 - Discuss future directions for research, specifically focusing on devising incentive mechanisms on the blockchain system for carbon credit trading.
 - Propose a Contract theory approach as a basis for developing incentive mechanisms.
 
-### Conclusion:
+#### Conclusion:
 
 - Conclude by summarizing the key contributions of the proposed Blockchain and IoT-based framework.
 - Emphasize the potential policy implications and the importance of integrating advanced technologies for sustainable development in the context of carbon emission monitoring and trading.
 
-# 5.Decentralized Energy To Power Rural Homes Through Smart Contracts And Carbon Credit
+### 5.Decentralized Energy To Power Rural Homes Through Smart Contracts And Carbon Credit
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
 The proposed methodology is formulated through a literature review highlighting the significance of blockchain technology in creating secure and trustless environments. The focus is on addressing the growing demand for rural electrification using a Distributed Application (DApp) that combines blockchain and IoT for energy trading. The methodology involves the following steps:
 
-### Literature Review:
+#### Literature Review:
 
 - Conduct an in-depth literature review on the applications of blockchain technology, particularly in the energy industry.
 - Explore existing innovations in renewable energy, decentralization, and digitization.
 
-### Identifying Application Scope:
+#### Identifying Application Scope:
 
 - Recognize the potential applications of blockchain and IoT in addressing rural electrification challenges.
 - Identify opportunities for the convergence of blockchain and renewable energy technologies.
 
-### Conceptualization of DApp:
+#### Conceptualization of DApp:
 
 - Conceptualize a Distributed Application (DApp) that securely records ownership and consumption of energy generated through solar panels connected via IoT devices.
 - Explore the IOTA tangle framework and Python libraries for DApp development.
 
-### Development of DApp:
+#### Development of DApp:
 
 - Develop the proposed DApp using the IOTA tangle framework and Python libraries, including Python-Flask, pyota, and the ADS1115 library.
 - Ensure end-to-end functionality for recording and transacting energy consumption data.
 
-### Blockchain Integration:
+#### Blockchain Integration:
 
 - Integrate blockchain to securely store readings from IoT devices connected to solar panels.
 - Implement smart contracts to facilitate transactions based on energy consumption by end-users.
 
-### Testing and Evaluation:
+#### Testing and Evaluation:
 
 - Evaluate the efficiency and accountability improvements offered by distributed ledger technology in comparison to conventional systems.
 - Test the immutability of records on the blockchain and the effectiveness of the proposed solution.
 
-### Deployment and Availability:
+#### Deployment and Availability:
 
 - Deploy the developed solution, making it publicly available through platforms like GitHub.
 - Provide access to the solution for transparency and collaborative development.
 
-### Future Work Incorporating Algorand:
+#### Future Work Incorporating Algorand:
 
 - Identify scalability as a potential concern and propose the incorporation of a scalable blockchain solution like Algorand.
 - Highlight the advantages of Algorand's Pure Proof of Stake protocol and permissionless blockchain for decentralized networks.
 
-### Conclusion and Impact Assessment:
+#### Conclusion and Impact Assessment:
 
 - Conclude by summarizing the achievements of the proposed model in addressing rural electrification challenges.
 - Assess the impact of the developed DApp on improving incentives for utility providers through carbon credits or renewable energy certificates.
 
-### Future Prospects with Algorand:
+#### Future Prospects with Algorand:
 
 - Discuss the potential benefits of transitioning to Algorand for improved scalability and decentralization.
 - Emphasize the ongoing nature of research and development, suggesting a continuous commitment to innovation.
 
-# 6.Optimal Allocation of Carbon Credits to Emitting Agents in a Carbon Economy
+### 6.Optimal Allocation of Carbon Credits to Emitting Agents in a Carbon Economy
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
 The proposed methodology is developed through a comprehensive literature review addressing the carbon credit allocation problem, with a focus on cost-minimizing allocation among emitting agents within a global company. The methodology is clearly stated and involves the following steps:
 
-### Problem Formulation:
+#### Problem Formulation:
 
 - Identify the challenge of carbon credit allocation within a global company faced with emission reduction targets.
 - Formulate the problem as a reverse auction problem, where the company acts as the buyer or carbon planning authority, and its divisions are emitting agents providing cost curves for carbon credit reductions.
 
-### Problem Variants:
+#### Problem Variants:
 
 - Consider two natural variants of the problem: one with an unlimited budget and the other with a limited budget.
 - Define realistic assumptions on the cost curves provided by different divisions within the company.
 
-### Algorithm Design:
+#### Algorithm Design:
 
 - Propose a greedy algorithm designed to solve the knapsack problem derived from the carbon credit allocation problem.
 - Utilize the cost curves (bids) from each division to compute an allocation vector, demonstrating its optimality.
 
-### Decision Support for Companies:
+#### Decision Support for Companies:
 
 - Highlight the significance of the proposed algorithms for companies engaged in green programs.
 - Emphasize the decision support provided for budget planning, immediate cap compliance, future payoffs, and investment decisions in greener technologies.
 
-### Future Work and Research Directions:
+#### Future Work and Research Directions:
 
 - Discuss potential future research directions, including investigating the carbon credit allocation problem in scenarios with strategic players.
 - Propose the exploration of optimal coalition structure formation with strategic players, considering collaborations for cost reduction.
 - Recognize the importance of studying situations with strategic players to make carbon credit allocations more justifiable.
 
-### Conclusion:
+#### Conclusion:
 
 - Summarize the key contributions of the proposed methodology, emphasizing its application in providing critical decision support for global companies.
 - Highlight the potential for future research to enhance the reliability and justifiability of carbon credit allocations, especially in strategic player scenarios.
