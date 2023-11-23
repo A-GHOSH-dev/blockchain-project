@@ -516,107 +516,107 @@ The proposed methodology is developed through a comprehensive literature review 
 - Highlight the potential for future research to enhance the reliability and justifiability of carbon credit allocations, especially in strategic player scenarios.
 
 
-# 7.Establishing a Secure, Transparent, and Autonomous Blockchain of Custody for Renewable Energy Credits and Carbon Credits
+### 7.Establishing a Secure, Transparent, and Autonomous Blockchain of Custody for Renewable Energy Credits and Carbon Credits
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
 The proposed methodology is derived from a literature review, focusing on addressing flaws in existing credit accounting and management systems associated with clean energy assets. The objective is to streamline processes, reduce costs, and incentivize the widespread adoption of clean energy. Blockchain technology is identified as a promising solution, and the methodology is clearly stated:
 
-### Identification of Current Challenges:
+#### Identification of Current Challenges:
 
 - Review existing flaws in credit accounting and management systems associated with clean energy assets.
 - Identify barriers that hinder the monetization of clean energy assets and slow down the adoption of clean energy.
 
-### Exploration of Blockchain Technology:
+#### Exploration of Blockchain Technology:
 
 - Investigate the capabilities of blockchain technology in providing a secure and transparent distributed ledger.
 - Explore the concept of smart contracts for autonomously executing transactions based on predefined criteria.
 
-### Proposal of Clean Energy Blockchain Network (CEBN):
+#### Proposal of Clean Energy Blockchain Network (CEBN):
 
 - Propose the Clean Energy Blockchain Network (CEBN) as a solution to address existing challenges in credit accounting and management.
 - Highlight the partnership with Silicon Valley Power to apply blockchain technology in the low carbon fuel standard (LCFS) program.
 
-### Demonstration Through Real-World Deployment:
+#### Demonstration Through Real-World Deployment:
 
 - Emphasize the significance of a real-world deployment with Silicon Valley Power to demonstrate the practical application of blockchain technology in simplifying complex trading environments.
 - Showcase how blockchain can facilitate the participation of organizations in valuable programs such as LCFS.
 
-### Benefits of Blockchain Implementation:
+#### Benefits of Blockchain Implementation:
 
 - Discuss how blockchain technology can significantly simplify credit tracking, reconciliation, and auditing processes.
 - Highlight the near-real-time settlement of credits from generation to retirement, reducing time and cost associated with traditional systems.
 
-### Conclusion and Future Potential:
+#### Conclusion and Future Potential:
 
 - Conclude that blockchain technology has the potential to simplify complex trading environments and make transactions feasible that were previously expensive.
 - Emphasize the role of Blockchain of CustodyTM in transparently tracking credits and settling transactions efficiently.
 
-### Vision for Widespread Implementation:
+#### Vision for Widespread Implementation:
 
 - Express a strong belief that blockchain technology can enable the widespread implementation of socially valuable programs like LCFS.
 - Address the issues associated with existing credit accounting systems and highlight the potential for increased consumer access to clean energy.
 
-### Collaborative Stakeholder Involvement:
+#### Collaborative Stakeholder Involvement:
 
 - Advocate for the collaboration of existing and future stakeholders in designing and refining an efficient, blockchain-based solution.
 - Propose continuous efforts to bring together stakeholders for the development and enhancement of credit programs.
 
-### Ultimate Goal:
+#### Ultimate Goal:
 
 - Articulate the ultimate goal of increasing consumer access to clean energy and fuel while incentivizing greater production.
 - Highlight the societal and environmental benefits that result from achieving these goals for the current and future generations.
 
-# 8.Performance Analysis of an Energy Trading Platform Using the Ethereum Blockchain
+### 8.Performance Analysis of an Energy Trading Platform Using the Ethereum Blockchain
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
-### Implementation of Local Electricity Market:
+#### Implementation of Local Electricity Market:
 
 - Develop a local electricity market on the Ethereum platform using a double auction model for energy trading.
 
-### Blockchain Performance Evaluation:
+#### Blockchain Performance Evaluation:
 
 - Evaluate Ethereum platform performance systematically, focusing on scalability, real-time capabilities, throughput, and latency.
 
-### Scalability Limits and Resource Identification:
+#### Scalability Limits and Resource Identification:
 
 - Relate scalability limits to Ethereum's throughput and latency.
 - Identify minimum resources needed to operate an Ethereum client for the energy market.
 
-### Efficient Market Operation Proposal:
+#### Efficient Market Operation Proposal:
 
 - Propose an efficient market operation method based on performance evaluation findings.
 
-### Performance Highlights and Insights:
+#### Performance Highlights and Insights:
 
 - Highlight achieved performance (40 TPS, 10 seconds latency) and insights into scalability improvements for real-time trading.
 
-### Cost-Effective Operation and Platform Considerations:
+#### Cost-Effective Operation and Platform Considerations:
 
 - Confirm cost-effective operation with minimal hardware requirements (one core of 64-bit CPU, 2 GB memory).
 - Suggest the use of PoA-based Ethereum or alternative platforms for real-time trading due to PoW limitations.
 
-### Contributions to Energy Market Development:
+#### Contributions to Energy Market Development:
 
 - Conclude by emphasizing contributions to establishing a cost-effective energy market on the blockchain.
 - Advocate for considering alternative platforms for specific use cases requiring real-time trading.
 
-# 9.Energy Consumption Monitoring using Private Blockchain Network based on Ethereum Smart Contracts
+### 9.Energy Consumption Monitoring using Private Blockchain Network based on Ethereum Smart Contracts
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
-### Introduction:
+#### Introduction:
 
 - Address security concerns in monitoring current consumption in a smart grid.
 - Emphasize the need for data integrity, protection, and synchronization in the transmission of power consumption data.
 
-### Literature Review:
+#### Literature Review:
 
 - Investigate existing methodologies for monitoring electricity consumption in Smart Grids.
 - Identify challenges, including security vulnerabilities in communication and potential data loss risks associated with centralized servers.
 
-### Blockchain and Smart Contracts Solution:
+#### Blockchain and Smart Contracts Solution:
 
 - Propose a solution utilizing a private blockchain network and Ethereum-based smart contracts for secure data transmission.
 - Highlight advantages, including ensured data integrity, synchronization among nodes, and data protection through decentralized storage.
@@ -624,76 +624,76 @@ The proposed methodology is derived from a literature review, focusing on addres
   - Acknowledge potential drawbacks, such as increased energy consumption with each blockchain node.
   - Introduce a solution by adapting the consensus algorithm to low power consumption, mitigating the energy impact of blockchain implementation.
 
-### Efficient Implementation at Node Level:
+#### Efficient Implementation at Node Level:
 
 - Describe an archiving method inherent to the proposed blockchain solution.
 - Emphasize the efficiency of the solution at the node level, offering comparative analyses with traditional server-based solutions.
 
-### Conclusion:
+#### Conclusion:
 
 - Summarize the presented platform solution for monitoring electricity consumption in Smart Grids using blockchain and Ethereum smart contracts.
 - Highlight the unique aspects of the solution, including reduced electricity consumption, data protection, authorization, and low cost.
 
-### Future Development Directions:
+#### Future Development Directions:
 
 - Discuss potential areas for future research and development in implementing blockchain for electricity consumption monitoring in Smart Grids.
 - Encourage continued exploration of blockchain applications in advanced measurement systems.
 
-# 10.Carbon Credits on Blockchain
+### 10.Carbon Credits on Blockchain
 
-## Proposed Methodology:
+#### Proposed Methodology:
 
-### Literature Review:
+#### Literature Review:
 
 - Conduct a comprehensive literature review on existing carbon trading systems, focusing on their limitations and challenges.
 - Investigate blockchain technology's applications in decentralized and transparent systems, particularly in the context of carbon trading.
 
-### Token-Based Economy Proposal:
+#### Token-Based Economy Proposal:
 
 - Propose a token-based economy for carbon trading using blockchain to ensure decentralization and transparency globally.
 - Explore the digital tracking of carbon emission permits as a key element in the proposed system.
 
-### Safeguard Against Credit Hoarding:
+#### Safeguard Against Credit Hoarding:
 
 - Develop mechanisms within the blockchain-based system to safeguard against the hoarding of carbon credits.
 - Address potential issues related to market manipulation and ensure fair distribution and utilization of carbon credits.
 
-### Conclusion:
+#### Conclusion:
 
 - Summarize the presented blockchain solution for trading carbon credits.
 - Emphasize the benefits of tracking carbon credits using blockchain technology, including enhanced usefulness, participation, and cost-effectiveness.
 
-### Future Scope:
+#### Future Scope:
 
 - Acknowledge the ongoing nature of the work and the evolving nature of blockchain technology.
 - Highlight the potential for replacing the Clean Development Mechanism registry with a blockchain ledger to support the growth of the carbon market.
 
-### Spatial Differentiation in Token Pricing:
+#### Spatial Differentiation in Token Pricing:
 
 - Propose a model for spatial differentiation in token pricing based on the location's susceptibility to pollution.
 - Advocate for adjusting token prices to make it costlier to pollute areas already experiencing high pollution levels.
 
-### Implementation Viability and Focus:
+#### Implementation Viability and Focus:
 
 - Affirm the viability of the proposed implementation at the industry level.
 - Acknowledge the intensive nature of emission tracking and focus initially on corporate-level use cases.
 
-### Tracking at Consumer Level:
+#### Tracking at Consumer Level:
 
 - Discuss the potential for extrapolating the proposed system to track and inhibit pollution at the individual consumer level.
 - Recognize the need for advancements in tracking mechanisms and technologies to enable consumer-level tracking.
 
-### Scalability Challenges:
+#### Scalability Challenges:
 
 - Address scalability challenges associated with blockchain technology for consumer-level transactions.
 - Recognize that blockchains currently face difficulties with numerous small-scale transactions but anticipate future adaptations to overcome these challenges.
 
-### Consumer Level Carbon Tax Scheme:
+#### Consumer Level Carbon Tax Scheme:
 
 - Envision the implementation of a consumer-level carbon tax scheme based on accurate tracking of individual carbon emissions.
 - Highlight the potential to dissuade unnecessary pollution through a normalized carbon tax, such as adding it to transportation expenses.
 
-### Conclusion and Future Adaptations:
+#### Conclusion and Future Adaptations:
 
 - Conclude by emphasizing the need to address scalability issues and the potential for future adaptations in blockchain technology.
 - Emphasize the long-term goal of instilling environmentally friendly habits through accurate tracking and taxation at all levels.
