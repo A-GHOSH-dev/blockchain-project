@@ -478,6 +478,47 @@ The proposed methodology is formulated through a literature review highlighting 
 - Discuss the potential benefits of transitioning to Algorand for improved scalability and decentralization.
 - Emphasize the ongoing nature of research and development, suggesting a continuous commitment to innovation.
 
+# Optimal Allocation of Carbon Credits to Emitting Agents in a Carbon Economy
+
+## Proposed Methodology:
+
+The proposed methodology is developed through a comprehensive literature review addressing the carbon credit allocation problem, with a focus on cost-minimizing allocation among emitting agents within a global company. The methodology is clearly stated and involves the following steps:
+
+### Problem Formulation:
+
+- Identify the challenge of carbon credit allocation within a global company faced with emission reduction targets.
+- Formulate the problem as a reverse auction problem, where the company acts as the buyer or carbon planning authority, and its divisions are emitting agents providing cost curves for carbon credit reductions.
+
+### Problem Variants:
+
+- Consider two natural variants of the problem: one with an unlimited budget and the other with a limited budget.
+- Define realistic assumptions on the cost curves provided by different divisions within the company.
+
+### Algorithm Design:
+
+- Propose a greedy algorithm designed to solve the knapsack problem derived from the carbon credit allocation problem.
+- Utilize the cost curves (bids) from each division to compute an allocation vector, demonstrating its optimality.
+
+### Decision Support for Companies:
+
+- Highlight the significance of the proposed algorithms for companies engaged in green programs.
+- Emphasize the decision support provided for budget planning, immediate cap compliance, future payoffs, and investment decisions in greener technologies.
+
+### Future Work and Research Directions:
+
+- Discuss potential future research directions, including investigating the carbon credit allocation problem in scenarios with strategic players.
+- Propose the exploration of optimal coalition structure formation with strategic players, considering collaborations for cost reduction.
+- Recognize the importance of studying situations with strategic players to make carbon credit allocations more justifiable.
+
+### Conclusion:
+
+- Summarize the key contributions of the proposed methodology, emphasizing its application in providing critical decision support for global companies.
+- Highlight the potential for future research to enhance the reliability and justifiability of carbon credit allocations, especially in strategic player scenarios.
+
+
+
+
+
 
 
 
