@@ -376,6 +376,52 @@ The proposed methodology is derived from a literature review of initiatives rela
 - Discuss the model's findings that while co-benefits influence project selection, the final carbon credit price is primarily influenced by the project type.
 - Highlight the potential for Colombia, Peru, and Brazil to lead in combined markets for carbon credits and ecosystem services.
 
+# CARBON EMISSION MONITORING AND CREDIT TRADING: THE BLOCKCHAIN AND IoT APPROACH
+
+## Proposed Methodology:
+
+The proposed methodology is derived from a literature review addressing inconsistencies in carbon dioxide emission data and the need for a decentralized, transparent, and traceable system for carbon emission monitoring and credit trading. The methodology focuses on implementing a Blockchain and IoT-based framework on the FISCO bcos platform.
+
+### Literature Review:
+
+- Conduct an extensive literature review on existing challenges in carbon emission monitoring and credit trading.
+- Identify the shortcomings in current systems that hinder the development of low-carbon cities.
+
+### Framework Design:
+
+- Propose a Blockchain and IoT-based framework on the FISCO bcos platform for monitoring enterprise carbon emissions and facilitating carbon credit trading using smart contracts.
+- Ensure decentralization, transparency, traceability, and trustlessness in the proposed system.
+
+### Implementation on FISCO bcos Platform:
+
+- Implement the proposed framework on the FISCO bcos platform, considering its features such as decentralization and high scalability.
+- Utilize smart contracts to automate and secure the carbon credit trading process.
+
+### System Evaluation:
+
+- Evaluate the performance of the implemented system in comparison to other solutions, with a focus on system median response time.
+- Use empirical data to demonstrate the superiority of the proposed system, emphasizing its efficiency and reliability.
+
+### Policy Implications:
+
+- Translate the findings into a policy dimension, advocating for the incorporation of blockchain technology in carbon emission monitoring and trading.
+- Highlight the potential benefits of the proposed system for achieving sustainable development goals, particularly in the context of low-carbon cities.
+
+### Integration with Smart Cities:
+
+- Explore the integration of the proposed system with smart cities, emphasizing the role of green infrastructure and technologies in limiting environmental pollution.
+- Identify opportunities for advancing blockchain and IoT applications within the context of climate change and smart cities.
+
+### Future Work:
+
+- Discuss future directions for research, specifically focusing on devising incentive mechanisms on the blockchain system for carbon credit trading.
+- Propose a Contract theory approach as a basis for developing incentive mechanisms.
+
+### Conclusion:
+
+- Conclude by summarizing the key contributions of the proposed Blockchain and IoT-based framework.
+- Emphasize the potential policy implications and the importance of integrating advanced technologies for sustainable development in the context of carbon emission monitoring and trading.
+
 
 
 
