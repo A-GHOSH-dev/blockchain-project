@@ -414,6 +414,47 @@ graph TD
     - Chainlink is a widely recognized oracle solution, connecting smart contracts with real-world data.
     - Ensures reliable and secure data integration, crucial for validation.
 
+# Design of Carbon Inclusive Market System based on Blockchain Technology
+
+## Proposed Methodology:
+
+### Literature Review:
+- Examine existing enterprise-level carbon credit policies.
+- Investigate personal-level carbon trading policies and identify gaps.
+
+### Analysis:
+- Define the meaning of carbon credit and highlight current policy support.
+- Stress the need for extending policies to the personal level for a dual-carbon strategy.
+
+### Regional Chain Technology:
+- Suggest adopting regional chain technology.
+- Segregate enterprise and personal carbon trading into public and side chains.
+
+### Personal Carbon Trading Model:
+- Develop a model using regional chain technology.
+- Address public resource congestion and enhance transaction efficiency.
+
+### Simulation:
+- Simulate the individual transaction model.
+- Use results as a basis for policy recommendations.
+
+### Guiding Significance:
+- Analyze implications on carbon trading prices.
+- Explain practical significance and potential trends.
+
+### Closing Remarks:
+- Summarize key findings and innovations.
+- Highlight multi-party interaction and price-driven mechanisms.
+
+### Future Outlook:
+- Discuss the rise of regional chain technology.
+- Propose areas for future research and development.
+
+### Conclusion:
+- Emphasize the importance of the proposed model.
+- Conclude by underscoring regional chain technology's role in efficient carbon trading.
+
+
 ## Project Workflow
 
 ### Challenge Creation
