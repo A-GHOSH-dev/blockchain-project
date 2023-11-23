@@ -1,5 +1,22 @@
 # Blockchain-Based Carbon Reduction Challenge Platform
 
+# Contents:
+Problem Statement
+Proposed Solution
+Motivation
+Project Overview
+Implementation Steps
+Blockchain Integration Overview
+Novelty and Advantages of the Project
+Existing Solutions vs. Blockchain-Based Carbon Reduction Challenge Platform
+Project Workflow
+Technology Stack
+Detailed Project Workflow
+Conclusion
+References
+
+
+
 ## ScreenShots of the work done:
 https://drive.google.com/file/d/1xU-rV8ym9fGyIxoRRAezMaTNLnfaZR4f/view?usp=sharing
 
@@ -606,18 +623,6 @@ Building a website for carbon credits using blockchain and the Ethereum platform
 
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75301209/b0c50ae0-1aee-45f4-96b8-e41b661798ef)
 
-## Conclusion
-The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
-
-## References
-- Saraji, S., & Borowczak, M. (2021). A blockchain-based carbon credit ecosystem. arXiv preprint arXiv:2107.00185.
-- Howson, P. (2019). Tackling climate change with blockchain. Nature Climate Change, 9(9), 644-645.
-- Kim, S. K., & Huh, J. H. (2020). Blockchain of carbon trading for UN sustainable development goals. Sustainability, 12(10), 4021.
-- https://www.footprintcalculator.org/home/en
-- Enejison, M., Ejide, O., & Nemanic, C. (2022). Blocks and Credits: A Sustainability Lens on Blockchain Technology in Voluntary Carbon Markets.
-- Woo, J., Fatima, R., Kibert, C. J., Newman, R. E., Tian, Y., & Srinivasan, R. S. (2021). Applying blockchain technology for building energy performance measurement, reporting, and verification (MRV) and the carbon credit market: A review of the literature. Building and Environment, 205, 108199.
-- Patel, D., Britto, B., Sharma, S., Gaikwad, K., Dusing, Y., & Gupta, M. (2020, February). Carbon credits on blockchain. In 2020 International Conference on Innovative Trends in Information Technology (ICITIIT) (pp. 1-5). IEEE.
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Workflow
@@ -1000,23 +1005,8 @@ graph TD
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/991df7a4-f5cb-44e8-8dc3-e97c1d890900)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/d026a85c-ab85-435a-a6f8-cc73bd72a222)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/43c01a90-8550-4dbb-b7ff-8201bf67d45c)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/0e761aac-b4b5-494e-a369-850c4ea7ebc5)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/24d41a4c-0122-4bf0-b4f1-2275a4bd1e65)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/653eeab9-1611-48b4-a605-ca9523d05b64)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/58251162-e03b-49c5-a0bc-0ab635008e31)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/61d1e88c-88d4-486a-9a2a-b0862dbcb382)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/d3c24948-ba76-4978-a78e-deb023e5a132)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/bedffcc9-ac52-414a-932c-cfc929466d80)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c0160022-4441-4e16-a2b1-2ec611b86702)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/1c705de8-8add-477f-b893-d0d8b7ecea59)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/2cbc53dc-5cbb-4049-a3cc-3b43821265fe)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/280e4266-03fa-4d82-8f01-7b20fb5dbc74)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/a4696d4c-8f21-409d-bc21-37156d4c9b87)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/e2c1c412-61bf-4d77-8508-f1957ab17783)
-![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/ff321129-1a43-4659-acfc-8279dba9003c)
 
-
-# FINAL:
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/8a5c9a79-1416-4264-9839-4d3350132d19)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/91416986-4e90-42a2-85a5-fdbcd651ac7a)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/7f413846-691d-460a-a879-ba418e0cb3ea)
@@ -1041,9 +1031,26 @@ graph TD
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/c6bde89e-7573-49cf-a692-271e70dd5b19)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/edb678cb-7136-4329-b2c5-22050aa8f6fa)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/5709963e-206a-434d-8a5c-ff6ceabe0853)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/741eb633-ae0c-4df4-bd3c-aadc349c48b5)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/f78f8884-76d9-441c-805a-2b1913fb6c88)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/f11a8462-9807-44ca-846f-951db2dd7c20)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/754e2645-06d9-46ec-8176-bff677ea20c7)
 ![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/4e288f37-3578-4c76-84f9-2bba226f5f46)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/fe486b53-cb48-45fa-930b-9fa207afaf35)
+![image](https://github.com/A-GHOSH-dev/blockchain-project/assets/75447439/2eee345a-5f52-48f0-87f7-0aa3198ea6b0)
 
 
+## Conclusion
+The Blockchain-Based Carbon Reduction Challenge Platform offers an innovative and engaging approach to addressing carbon emissions. By providing incentives, transparency, and a sense of community, it has the potential to inspire positive environmental change on a global scale. The use of blockchain technology ensures the security and reliability of data, making it a powerful tool in the fight against climate change. Further development and collaboration with environmental organizations and stakeholders will be essential to realize the project's full potential.
+
+## References
+- Saraji, S., & Borowczak, M. (2021). A blockchain-based carbon credit ecosystem. arXiv preprint arXiv:2107.00185.
+- Howson, P. (2019). Tackling climate change with blockchain. Nature Climate Change, 9(9), 644-645.
+- Kim, S. K., & Huh, J. H. (2020). Blockchain of carbon trading for UN sustainable development goals. Sustainability, 12(10), 4021.
+- https://www.footprintcalculator.org/home/en
+- Enejison, M., Ejide, O., & Nemanic, C. (2022). Blocks and Credits: A Sustainability Lens on Blockchain Technology in Voluntary Carbon Markets.
+- Woo, J., Fatima, R., Kibert, C. J., Newman, R. E., Tian, Y., & Srinivasan, R. S. (2021). Applying blockchain technology for building energy performance measurement, reporting, and verification (MRV) and the carbon credit market: A review of the literature. Building and Environment, 205, 108199.
+- Patel, D., Britto, B., Sharma, S., Gaikwad, K., Dusing, Y., & Gupta, M. (2020, February). Carbon credits on blockchain. In 2020 International Conference on Innovative Trends in Information Technology (ICITIIT) (pp. 1-5). IEEE.
 
 
 
