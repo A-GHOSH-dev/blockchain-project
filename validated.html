@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+<!-- Head section with title and style definitions -->
+
 <head>
   <title>Carbon Footprint Questionnaire</title>
+  <!-- Styling for the body -->
+
   <style>
     body {
       background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-blue-gradient-protection-environment-psd-layered-h5-background-material-image_153142.jpg");
@@ -9,19 +13,20 @@
         background-repeat: no-repeat;
         background-size: cover;
         animation: fadeIn 2s ease-in;
-        
+
       }
-      
+
       @keyframes fadeIn {
         from {
           opacity: 0;
         }
-      
+
         to {
           opacity: 1;
         }
       }
-      
+      /* Styling for the main container */
+
       .container {
         max-width: 800px;
         margin: 0 auto;
@@ -30,28 +35,34 @@
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
-      
+      /* Styling for heading level 1 */
+
       h1 {
         text-align: center;
         margin-bottom: 20px;
         color: #056508;
       }
+      /* Styling for paragraphs */
+
       p {
         text-align: center;
         margin-bottom: 20px;
         color: #051265;
       }
-      
+      /* Styling for questions */
+
       .question {
         margin-bottom: 20px;
       }
-      
+      /* Styling for labels */
+
       label {
         display: block;
         font-weight: bolder;
         font-family: cursive;
       }
-      
+      /* Styling for select elements */
+
       select {
         width: 100%;
         padding: 10px;
@@ -61,12 +72,13 @@
         font-family: monospace;
         font-weight: bold;
       }
-      
+      /* Styling for buttons */
+
       .button {
         text-align: center;
         margin-top: 20px;
       }
-      
+
       button {
         background-color: #007718;
         color: #fff;
@@ -76,27 +88,34 @@
         cursor: pointer;
         animation: bounce 0.5s ease-in-out;
       }
-      
+
       @keyframes bounce {
         0% {
           transform: translateY(0);
         }
-      
+
         50% {
           transform: translateY(-10px);
         }
-      
+
         100% {
           transform: translateY(0);
         }
       }
-      
+
   </style>
 </head>
+<!-- Body section -->
+
 <body>
+    <!-- Main container -->
+
   <div class="container">
+      <!-- Heading level 1 -->
+
     <h1>Accept Block</h1>
-   
+    <!-- Paragraph with age and location information -->
+
    <p>Age: 32
     <br>
     India
@@ -104,39 +123,39 @@
 
    </p>
 
-   
+
       <!-- Question 1 -->
       <div class="question">
         <label for="question-1">How do you heat your home?</label>
         <select id="question-1">
-          
+
           <option value="other">Other</option>
         </select>
       </div>
       <img src="https://th.bing.com/th/id/OIP.arWeRZ3EebOBk_CrMsQRgAHaE0?rs=1&pid=ImgDetMain">
-       
+
         <br>
-        
- 
+
+
 
       <!-- Question 2 -->
       <div class="question">
         <label for="question-2">How do you cool your home?</label>
         <select id="question-2">
-         
+
           <option value="fans">Fans</option>
-         
+
         </select>
       </div>
      <img src="https://th.bing.com/th/id/OIP.p5r9iyaWJ9q7wAOvVOc49gAAAA?rs=1&pid=ImgDetMain">
       <br>
- 
+
   <!-- Question 3 -->
 <div class="question">
     <label for="question-3">How energy-efficient is your home?</label>
     <select id="question-3">
       <option value="energy-efficient">Energy-efficient appliances and insulation</option>
-     
+
     </select>
   </div>
  <img src="https://th.bing.com/th/id/OIP.KK9EyzQZGwmx6YAiLstgAQHaFj?rs=1&pid=ImgDetMain">
@@ -146,22 +165,13 @@
   <div class="question">
     <label for="question-4">How do you commute to work or school?</label>
     <select id="question-4">
-     
+
       <option value="bicycle-walking">Bicycle/walking</option>
-      
+
     </select>
   </div>
   <img src="https://th.bing.com/th/id/OIP.ngeHMMBHA_26eLkLFMsEgQHaFh?rs=1&pid=ImgDetMain">
   <br>
-
-
-
-
-
-
-
-
-
 
   <!-- Question 5 -->
   <div class="question">
@@ -375,7 +385,7 @@
   <label for="proofFile">Choose a file:</label>
   <input type="file" id="proofFile" name="proofFile" accept=".pdf, .jpg, .png">
   <br>
-  
+
   <!-- Question 26 -->
 <div class="question">
     <label for="question-26">How many miles do you drive per day for local trips?</label>
@@ -437,7 +447,7 @@
   <label for="proofFile">Choose a file:</label>
   <input type="file" id="proofFile" name="proofFile" accept=".pdf, .jpg, .png">
   <br>
-  
+
 <!-- Question 31 -->
 <div class="question">
     <label for="question-31">Do you recycle paper products?</label>
@@ -542,7 +552,7 @@
   </div>
   <label for="proofFile">Choose a file:</label>
         <input type="file" id="proofFile" name="proofFile" accept=".pdf, .jpg, .png">
-        <br> 
+        <br>
   <!-- Question 39 -->
   <div class="question">
     <label for="question-39">Do you actively support eco-friendly and sustainable brands and products?</label>
@@ -572,10 +582,7 @@
       <label for="proofFile">Choose a file:</label>
         <input type="file" id="proofFile" name="proofFile" accept=".pdf, .jpg, .png">
         <br>
-
    
-
-       
     </form>
     <div class="button">
       <a href="proofofreduction copy.html">   <button>Calculate Carbon Footprint</button></a>
