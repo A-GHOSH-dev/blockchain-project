@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "challengeId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "endTime",
+						"type": "uint256"
+					}
+				],
+				"name": "ChallengeCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "challenges",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "challengeId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "easyLevelTarget",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mediumLevelTarget",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hardLevelTarget",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_endTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_easyLevelTarget",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mediumLevelTarget",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_hardLevelTarget",
+						"type": "uint256"
+					}
+				],
+				"name": "createChallenge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ChallengeManagement.sol": "ChallengeManagement"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ChallengeManagement.sol": {
+			"keccak256": "0x602d8c96df21ea78c471ad6746c47fde51aa6110629c0d657047b4b8bd87cb84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0fbeda465d0c69dbefeb89c44a5fde483d73b257a6a5f55f9a593e5562c9332",
+				"dweb:/ipfs/QmRPQSAVxXrCESbumhoCsrFYfndt2uf96mZBic7x52sQcm"
+			]
+		}
+	},
+	"version": 1
+}
