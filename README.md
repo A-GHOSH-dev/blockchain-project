@@ -192,7 +192,7 @@ pie
   "Public Ledger" : 5
 ```
 
-## Advantages of the Project
+## Novelty and Advantages of the Project
 
 1. **Incentivizing Carbon Reduction:** The project motivates individuals and organizations to actively participate in carbon reduction efforts by offering real rewards in the form of carbon credits.
 
